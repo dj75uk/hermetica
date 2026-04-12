@@ -1,8 +1,8 @@
 # Project Hermetica – System Specification (Draft)
 
-**Version:** 0.3  
-**Date:** YYYY-MM-DD  
-**Owner:**  
+**Version:** 0.1  
+**Date:** 2026-04-10  
+**Owner:** Daniel Johnson 
 **Status:** Draft / In Definition  
 
 ---
@@ -27,7 +27,7 @@ The system is intended to:
 - Flight Control Unit (FCU)
 - Sensor Suite (external + onboard)
 - Actuation Interfaces (ESCs, servos)
-- Communication Backbone (CAN-centric)
+- Communication Backbone (CANFD-centric)
 - Ground Interface
 
 **Architecture Model:**
@@ -315,9 +315,9 @@ Hermetica must remain **independent of Aetherion** until integration.
 
 | Parameter | Hermetica Target | Aetherion Constraint | Status |
 |----------|----------------|--------------------|--------|
-| Weight | ___ | ___ | [ ] |
-| Power | ___ | ___ | [ ] |
-| Size | ___ | ___ | [ ] |
+| Weight | < 500g | 1.0kg limit | [x] |
+| Power | 2S to 8S supply, 500mA total consumption | ___ | [ ] |
+| Size | 60mm(W) x 80mm(L) x 50mm(H) | ___ | [ ] |
 
 ---
 
@@ -334,16 +334,20 @@ Hermetica must remain **independent of Aetherion** until integration.
 ## 13. MVP Definition
 
 **MVP must include:**
-- [ ] Basic stabilized flight  
-- [ ] IMU + GNSS fusion  
-- [ ] RC input (FBUS?)  
-- [ ] ESC output  
-- [ ] Basic failsafe  
+- CANFD working backbone for messaging between stack layers  
+- Basic stabilized flight  
+- Basic loiter flight mode  
+- Gyroscope, accelerometer and magnetometer fusion  
+- RC input (SBUS)  
+- PWM output for ESC and servos
+- Independant control of ailerons, elevators, rudders and flaps  
+- Basic failsafe  
 
 **Explicitly excluded:**
-- [ ] Advanced autonomy  
-- [ ] Distributed CAN nodes  
-- [ ] Payload ecosystem  
+- Advanced flight modes  
+- Pitot integration  
+- Payload ecosystem  
+- OSD integration
 
 ---
 
