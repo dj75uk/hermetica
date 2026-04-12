@@ -144,9 +144,10 @@ The system is intended to:
   - STM32H755ZIT6 for high performance layers running at 200Mhz
   - STM32G474CET6 for low performance requirements running at 80MHz
 
-| MCU | Core | Clock Speed | Flash | RAM | Package |  
-| STM32H755ZIT6 | M7 + M4 (Dual Core) | 480 Mhz | 2048 kB | 1024 kB | LQFP-144 20x20x1.4 |   
-| STM32G474CET6 | M4 | 170 Mhz | 512 kB | 128kB | LQFP-48 7x7x1.4 |  
+| MCU | Core | Clock Speed | Flash | RAM | Package |
+|---------------|---------------------|---------|---------|---------|--------------------|
+| STM32H755ZIT6 | M7 + M4 (Dual Core) | 480 Mhz | 2048 kB | 1024 kB | LQFP-144 20x20x1.4 |
+| STM32G474CET6 | M4 | 170 Mhz | 512 kB | 128kB | LQFP-48 7x7x1.4 |
 
 ### 4.2 Memory
 
@@ -272,7 +273,7 @@ The system is intended to:
 
 ## 8. Environmental Requirements
 
-- Operating temperature: ___________  
+- Operating temperature: -40C to 120C (low temperature handling is much more important)  
 - Vibration tolerance: ___________  
 - Shock tolerance: ___________  
 - EMC compliance target: ___________  
