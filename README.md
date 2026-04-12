@@ -38,6 +38,7 @@ Hermetica is built on a set of strict engineering principles:
 Hermetica is structured as a **distributed flight control system**:
 
 - **Power Management**
+  
   Power supply, control, regulation, protection and monitoring.
   
 - **Distibuted Core FCU**  
