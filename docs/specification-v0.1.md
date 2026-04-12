@@ -255,8 +255,8 @@ Standardised connector across all PCB's for connection to a debugging board.
 | Pin  | Name               | Notes                                                                                         |
 |------|--------------------|-----------------------------------------------------------------------------------------------|
 | 1    | V<sub>TARGET</sub> | Voltage of target MCU                                                                         |
-| 2    | FITTED             | Target GND                                                                                    |
-| 3    | GND                | Signal to indicate the debugging board is fitted to a target board (0V to V<sub>TARGET</sub>) |
+| 2    | GND                | Target GND                                                                                    |
+| 3    | FITTED             | Signal to indicate the debugging board is fitted to a target board (0V to V<sub>TARGET</sub>) |
 | 4    | SWDIO              | SWD - SWDIO signal                                                                            |
 | 5    | SWCLK              | SWD - SWCLK signal                                                                            |
 | 6    | SWO                | SWD - SWO signal                                                                              |
@@ -264,6 +264,21 @@ Standardised connector across all PCB's for connection to a debugging board.
 | 8    | nRESET             | Pull-up on target board                                                                       |
 | 9    | MCU_TX             | UART connection to MCU TX                                                                     |
 | 10   | MCU_RX             | UART connection to MCU RX                                                                     |
+
+---
+
+### 4.9 CAN-FD Connector
+
+Standardised connector across all PCB's for connection to a CAN-FD nodes.
+
+- Connector: Samtec T1M, 3 pin, horizontal, single-row, [SAMTEC-T1M-03-F-SH-L](https://www.samtec.com/products/t1m-03-f-sh-l)
+
+| Pin  | Name               | Notes         |
+|------|--------------------|---------------|
+| 1    | CAN<sub>LOW</sub>  | CAN Low       |
+| 2    | CAN<sub>HIGH</sub> | CAN High      |
+| 3    | GND                | Signal ground |
+
 
 ---
 
