@@ -2,7 +2,7 @@
 
 **Version:** 0.1  
 **Date:** 2026-04-10  
-**Owner:** Daniel Johnson 
+**Owner:** Daniel Johnson  
 **Status:** Draft / In Definition  
 
 ---
@@ -142,19 +142,19 @@ The system is intended to:
 
 - MCU: Will be dependant upon individual stack layer requirements:
   - STM32H755ZIT6 for high performance layers running at 480 MHz  
-  - STM32G474CET6 for low performance requirements running at 170 MHz  
+  - STM32G484CET6 for low performance requirements running at 170 MHz  
 
 | MCU           | Core                | Clock Speed | Package            |
 |---------------|---------------------|-------------|--------------------|
 | STM32H755ZIT6 | M7 + M4 (Dual Core) | 480 Mhz     | LQFP-144 20x20x1.4 |
-| STM32G474CET6 | M4                  | 170 Mhz     | LQFP-48 7x7x1.4    |
+| STM32G484CET6 | M4                  | 170 Mhz     | LQFP-48 7x7x1.4    |
 
 ### 4.2 Memory
 
 | MCU           | Flash   | RAM     | 
 |---------------|---------|---------|
 | STM32H755ZIT6 | 2048 kB | 1024 kB |
-| STM32G474CET6 | 512 kB  | 128 kB  |
+| STM32G484CET6 | 512 kB  | 128 kB  |
 
 - External storage: Each MCU will have dedicated FRAM for local configuration.  
 
@@ -180,7 +180,7 @@ The system is intended to:
 | MCU           | FDCAN1           | FDCAN2           | SPI1 | USART3    |
 |---------------|------------------|------------------|------|-----------|
 | STM32H755ZIT6 | Primary Backbone | Primary Backbone | FRAM | Debugging |
-| STM32G474CET6 | Primary Backbone | Primary Backbone | FRAM | Debugging |
+| STM32G484CET6 | Primary Backbone | Primary Backbone | FRAM | Debugging |
 
 - This should be considered a "standard usage" across all boards.
   
@@ -251,6 +251,7 @@ The PDB is the central electrical hub of a system designed to take power from th
 Standardised connector across all PCB's for connection to a debugging board.
 
 - Connector: Samtec T1M, 10 pin, horizontal, single-row, [SAMTEC-T1M-10-F-SH-L](https://www.samtec.com/products/t1m-10-f-sh-l)
+- Height: 4.6mm
 
 | Pin  | Name               | Notes                                                                                         |
 |------|--------------------|-----------------------------------------------------------------------------------------------|
@@ -265,6 +266,21 @@ Standardised connector across all PCB's for connection to a debugging board.
 | 9    | MCU_TX             | UART connection to MCU TX                                                                     |
 | 10   | MCU_RX             | UART connection to MCU RX                                                                     |
 
+#### 4.8.1 FITTED
+
+FITTED is pulled to  V<sub>TARGET</sub> on the debugging board. This is to enable the detection of the debugging hardware should conditional logic be required.
+For example, the stack could refuse to arm the motors and spin the propellors if FITTED was high. You know, to save fingers.
+
+#### 4.8.2 BOOT0
+
+BOOT0 is broken out so that the MCU can be forced to start in bootloader mode in an emergency. It should be pulled-down on the target board.
+
+#### 4.8.3 MCU_TX and MCU_RX
+- 
+MCU_TX and MCU_RX are broken out so that the MCU can be emergency flashed. They should be connected to a USART capable of flashing the bootloader.
+For most STM32 MCU's this is USART1, USART2 or USART3. During normal operation, the USART may be used for debugging.
+
+
 ---
 
 ### 4.9 CAN-FD Connector
@@ -272,6 +288,7 @@ Standardised connector across all PCB's for connection to a debugging board.
 Standardised connector across all PCB's for connection to a CAN-FD nodes.
 
 - Connector: Samtec T1M, 3 pin, horizontal, single-row, [SAMTEC-T1M-03-F-SH-L](https://www.samtec.com/products/t1m-03-f-sh-l)
+- Height: 4.6mm
 
 | Pin  | Name               | Notes         |
 |------|--------------------|---------------|
@@ -279,6 +296,9 @@ Standardised connector across all PCB's for connection to a CAN-FD nodes.
 | 2    | CAN<sub>HIGH</sub> | CAN High      |
 | 3    | GND                | Signal ground |
 
+### 4.9.1 CAN<sub>LOW</sub> and CAN<sub>HIGH</sub>
+
+CAN<sub>LOW</sub> and CAN<sub>HIGH</sub> are a differential signal and should be twisted-pair.
 
 ---
 
