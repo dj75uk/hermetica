@@ -144,14 +144,14 @@ The system is intended to:
   - STM32H755ZIT6 for high performance layers running at 480 MHz  
   - STM32G474CET6 for low performance requirements running at 170 MHz  
 
-| MCU | Core | Clock Speed | Package |
-|---------------|---------------------|---------|--------------------|
-| STM32H755ZIT6 | M7 + M4 (Dual Core) | 480 Mhz | LQFP-144 20x20x1.4 |
-| STM32G474CET6 | M4                  | 170 Mhz | LQFP-48 7x7x1.4    |
+| MCU           | Core                | Clock Speed | Package            |
+|---------------|---------------------|-------------|--------------------|
+| STM32H755ZIT6 | M7 + M4 (Dual Core) | 480 Mhz     | LQFP-144 20x20x1.4 |
+| STM32G474CET6 | M4                  | 170 Mhz     | LQFP-48 7x7x1.4    |
 
 ### 4.2 Memory
 
-| MCU | Flash | RAM | Package |
+| MCU           | Flash   | RAM     | 
 |---------------|---------|---------|
 | STM32H755ZIT6 | 2048 kB | 1024 kB |
 | STM32G474CET6 | 512 kB  | 128 kB  |
@@ -162,16 +162,30 @@ The system is intended to:
 
 ### 4.3 I/O Budget
 
-| Interface | Quantity | Notes |
-|----------|--------|------|
-| CAN/FDCAN | ___ | Primary backbone |
-| UART | ___ | FBUS, GNSS |
-| SPI | ___ | High-speed sensors |
-| I²C | ___ | Low-speed sensors |
-| PWM | ___ | ESC/servo |
-| ADC | ___ | Voltage/current sensing |
+| Interface | Usage |
+|-----------|-------|
+| FDCAN     | Redundant primary backbone |
+| UART      | Debugging connector, low speed communication |
+| SPI       | Local FRAM, high-speed sensors |
+| I²C       | Low-speed sensors |
+| GPIO      | General low-speed signalling and input capture    |
+| PWM       | Avoid using unless explicitly required on node     |
+| ADC       | Avoid using if possible, prefer digital interfaces |
+| DAC       | Avoid using if possible, prefer digital interfaces |
 
 ---
+
+#### 4.3.1 Standard peripheral usage by MCU
+
+| MCU           | FDCAN1           | FDCAN2           | SPI1 | USART3    |
+|---------------|------------------|------------------|------|-----------|
+| STM32H755ZIT6 | Primary Backbone | Primary Backbone | FRAM | Debugging |
+| STM32G474CET6 | Primary Backbone | Primary Backbone | FRAM | Debugging |
+
+- This should be considered a "standard usage" across all boards.
+  
+---
+
 
 ### 4.4 Power
 
@@ -198,10 +212,8 @@ The system is intended to:
 
 ### 5.1 Execution Model
 
-- The primary firmware will be written in C/C++ on a baremetal level
+- The primary firmware will be written in C/C++ on a *baremetal* level (HAL is acceptable)  
 - Additional nodes may use whatever they like  
-
-> **Selected:** ___________
 
 ---
 
@@ -247,30 +259,32 @@ The system is intended to:
 
 ### 6.2 Detection Mechanisms
 
-- [ ] Watchdogs (independent + windowed)  
-- [ ] Heartbeats (inter-module)  
-- [ ] Plausibility checks  
+- [x] Watchdogs (independent + windowed)  
+- [x] Heartbeats (inter-module)  
+- [x] Plausibility checks  
 
 ---
 
 ### 6.3 Failsafe Behaviour
 
-| Fault | Response |
-|------|---------|
-| IMU failure | ___________ |
-| GNSS loss | ___________ |
-| RC link loss | ___________ |
-| FCU internal fault | ___________ |
+| Fault    | Description                         | Probability | Response |
+|----------|-------------------------------------|-------------|----------|
+| FAULT001 | Primary IMU failure                 | LOW         | Warn and log |
+| FAULT002 | Secondary IMU failure               | LOW         | Warn and log |
+| FAULT003 | All IMU failure                     | VERY LOW    | Catastrophic |
+| FAULT004 | GNSS loss                           | HIGH        | No action |
+| FAULT005 | RC link loss                        | HIGH        | Usually switch to RTH mode |
+| FAULT006 | Critical FCU internal fault         | LOW         | Restart node |
 
 ---
 
 ## 7. Performance Targets
 
-- Control loop frequency: ___________ Hz  
-- End-to-end latency: ___________ ms  
-- Boot time: ___________ s  
-- Max supported nodes (CAN): ___________  
-- Max actuator count: ___________  
+- Control loop frequency: 10 kHz  
+- End-to-end latency: sub 20 ms  
+- Boot time: sub 10 s  
+- Max supported nodes (CANFD): 64  
+- Max actuator count: 10+  
 
 ---
 
@@ -310,11 +324,11 @@ Hermetica must remain **independent of Aetherion** until integration.
 
 ### 11.1 Negotiated Parameters
 
-| Parameter | Hermetica Target | Aetherion Constraint | Status |
-|----------|----------------|--------------------|--------|
-| Weight | < 500g | 1.0kg limit | [x] |
-| Power | 2S to 8S supply, 500mA total consumption | ___ | [ ] |
-| Size | 60mm(W) x 80mm(L) x 50mm(H) | ___ | [ ] |
+| Parameter | Hermetica Target                         | Aetherion Constraint | Status |
+|-----------|------------------------------------------|----------------------|--------|
+| Weight    | < 500g                                   | 1.0kg limit          | [x]    |
+| Power     | 2S to 8S supply, 500mA total consumption | ___                  | [ ]    |
+| Size      | 60mm(W) x 80mm(L) x 50mm(H)              | ___                  | [ ]    |
 
 ---
 
