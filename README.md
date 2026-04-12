@@ -11,7 +11,7 @@ Hermetica exists to solve a fundamental problem in UAV systems:
 > Flight controllers are often opaque and difficult to validate, when they should be transparent, deterministic, and testable.
 
 The platform aims to:
-- Provide a **robust and deterministic flight control stack**
+- Provide a **robust and distributed deterministic flight control stack**
 - Enable **deep system introspection** for debugging and validation
 - Support **modern communication architectures** (notably CAN-based systems)
 - Serve as a foundation for **autonomous and safety-critical UAV applications**
@@ -35,16 +35,19 @@ Hermetica is built on a set of strict engineering principles:
   Clean design is prioritised over short-term integration hacks  
 
 ## System Architecture
-Hermetica is structured as a **distributed-capable flight control system**:
+Hermetica is structured as a **distributed flight control system**:
 
-- **Core FCU**  
+- **Power Management**
+  Power supply, control, regulation, protection and monitoring.
+  
+- **Distibuted Core FCU**  
   High-performance MCU(s) responsible for control loops, sensor fusion, and coordination  
 
 - **Peripheral Modules**  
   Sensors, actuators, and payload interfaces connected via defined interfaces  
 
 - **Communication Backbone**  
-  CAN/FDCAN-based architecture for robust, fault-tolerant communication  
+  FDCAN-based architecture for robust, fault-tolerant communication  
 
 - **Telemetry & Diagnostics Layer**  
   High-rate, structured data output for monitoring and analysis  
