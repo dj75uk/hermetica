@@ -172,13 +172,13 @@ The system is intended to:
 
 ### 4.4 Power
 
-- Input voltage range: ___________  
-- Nominal power draw: ___________  
-- Peak power draw: ___________  
+- Input voltage range: 2S to 8S primary supply (6.0V to 33.6V)  
+- Nominal power draw: < 500mA  
+- Peak power draw: 3A  
 
-- [ ] Reverse polarity protection  
-- [ ] Surge / transient protection  
-- [ ] Power domain isolation  
+- [x] Reverse polarity protection  
+- [x] Surge / transient protection  
+- [x] Power domain isolation  
 
 ---
 
