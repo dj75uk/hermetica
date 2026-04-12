@@ -186,13 +186,10 @@ The system is intended to:
 
 ### 4.5 Physical
 
-- Form factor: ___________  
-- Dimensions: ___________  
-- Weight target: ___________  
-
-- Mounting:
-  - [ ] Hard mount  
-  - [ ] Vibration isolated  
+- Form factor: Multiple-PCB vertical stack with a stacking header acting as a common backbone  
+- Dimensions: 60mm(W) x 80mm(L) x  <50mm(H)  
+- Weight target: Sub 500g including all control-cabling and nodes (excluding servos, batteries and ESC's)  
+- Mounting via 4 x M3 holes, ideally on vibration mounts (airframe dependant) 
 
 ---
 
@@ -200,9 +197,8 @@ The system is intended to:
 
 ### 5.1 Execution Model
 
-- [ ] Baremetal  
-- [ ] RTOS (e.g. FreeRTOS)  
-- [ ] Hybrid  
+- The primary firmware will be written in C/C++ on a baremetal level
+- Additional nodes may use whatever they like  
 
 > **Selected:** ___________
 
