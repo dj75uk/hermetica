@@ -74,7 +74,7 @@ Hermetica hardware is designed to be:
 - Secure update and configuration mechanisms  
 
 ## Relationship to Aetherion
-Hermetica is developed alongside **Project Aetherion**, which serves as its **real-world validation platform**.
+Hermetica is developed alongside [**Project Aetherion**](https://github.com/dj75uk/aetherion), which serves as its **real-world validation platform**.
 
 - Hermetica defines the control system  
 - Aetherion validates it under real conditions  
