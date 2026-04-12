@@ -141,18 +141,21 @@ The system is intended to:
 ### 4.1 Processing Architecture
 
 - MCU: Will be dependant upon individual stack layer requirements:
-  - STM32H755ZIT6 for high performance layers running at 200Mhz
-  - STM32G474CET6 for low performance requirements running at 80MHz
+  - STM32H755ZIT6 for high performance layers running at 480 MHz  
+  - STM32G474CET6 for low performance requirements running at 170 MHz  
 
-| MCU | Core | Clock Speed | Flash | RAM | Package |
-|---------------|---------------------|---------|---------|---------|--------------------|
-| STM32H755ZIT6 | M7 + M4 (Dual Core) | 480 Mhz | 2048 kB | 1024 kB | LQFP-144 20x20x1.4 |
-| STM32G474CET6 | M4 | 170 Mhz | 512 kB | 128kB | LQFP-48 7x7x1.4 |
+| MCU | Core | Clock Speed | Package |
+|---------------|---------------------|---------|--------------------|
+| STM32H755ZIT6 | M7 + M4 (Dual Core) | 480 Mhz | LQFP-144 20x20x1.4 |
+| STM32G474CET6 | M4                  | 170 Mhz | LQFP-48 7x7x1.4    |
 
 ### 4.2 Memory
 
-- Flash: ___________  
-- RAM: ___________  
+| MCU | Flash | RAM | Package |
+|---------------|---------|---------|
+| STM32H755ZIT6 | 2048 kB | 1024 kB |
+| STM32G474CET6 | 512 kB  | 128 kB  |
+
 - External storage: Each MCU will have dedicated FRAM for local configuration.  
 
 ---
