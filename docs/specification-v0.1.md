@@ -204,7 +204,66 @@ The system is intended to:
 - Form factor: Multiple-PCB vertical stack with a stacking header acting as a common backbone  
 - Dimensions: 60mm(W) x 80mm(L) x  <50mm(H)  
 - Weight target: Sub 500g including all control-cabling and nodes (excluding servos, batteries and ESC's)  
-- Mounting via 4 x M3 holes, ideally on vibration mounts (airframe dependant) 
+- Mounting via 4 x M3 holes, ideally on vibration mounts (airframe dependant)  
+
+### 4.6 Backbone Header
+
+
+### 4.7 Minimum Stack Layers
+
+#### 4.7.1 Power Distribution Board (PDB)
+
+The PDB is the central electrical hub of a system designed to take power from the main battery and distribute it safely and efficiently to all subsystems.
+
+- STM32G484CET6
+- I/O: Debug connector
+- IN: Connection for primary batteries (PD1)
+- OUT: (PD1) 4x high current (~100A) pass-through ESC connections
+- OUT: (PD1) 2x low current (2A) pass-through VTX connections
+- OUT: (PD2) Voltage regulation to 5.0V @ 3A for stack power  
+- OUT: (PD3) Voltage regulation to 5.0V @ 3A for distributed node power (PD3)
+- Current, voltage, temperature, coulomb counting and power monitoring
+- Feeds power good signals on backbone (PD2 and PD3)
+- Feeds power load signals on backbone (PD2 and PD3)
+- ESD protection, reverse voltage protection, reverse current blocking, fusing
+- MCU locally powered by local 3.3V regulation from PD2
+- Optional CAN-FD bus termination
+- Pulls backbone nRESET high to 3.3V via pull-up
+- Cuts power temporarily to PD2 and PD3 on backbone nRESET signal going low
+
+#### 4.7.1 Flight Control Board (FCB)
+
+- STM32H755ZIT6
+- I/O: Debug connector
+- I/O: CAN-FD external connector
+- Reads RC control messages from the CAN-FD bus from RC receivers
+- Runs primary control loop, PID controllers, cascaded PID controllers services actuators
+- MCU locally powered by local 3.3V regulation from PD2 via backbone  
+- Functional IMU (gyroscope, accelerometer, magnetometer, barometer)  
+- Primary consumer of CAN-FD messages from subsystems  
+- Optional CAN-FD bus termination
+- Responsible for feeding arming signal on backbone
+
+---
+
+### 4.8 Debug Connector
+
+Standardised connector across all PCB's for connection to a debugging board.
+
+- Connector: Samtec T1M, 10 pin, horizontal, single-row, [SAMTEC-T1M-10-F-SH-L](https://www.samtec.com/products/t1m-10-f-sh-l)
+
+| Pin  | Name               | Notes                                                                                         |
+|------|--------------------|-----------------------------------------------------------------------------------------------|
+| 1    | V<sub>TARGET</sub> | Voltage of target MCU                                                                         |
+| 2    | FITTED             | Target GND                                                                                    |
+| 3    | GND                | Signal to indicate the debugging board is fitted to a target board (0V to V<sub>TARGET</sub>) |
+| 4    | SWDIO              | SWD - SWDIO signal                                                                            |
+| 5    | SWCLK              | SWD - SWCLK signal                                                                            |
+| 6    | SWO                | SWD - SWO signal                                                                              |
+| 7    | BOOT0              | Pull-down on target on board                                                                  |
+| 8    | nRESET             | Pull-up on target board                                                                       |
+| 9    | MCU_TX             | UART connection to MCU TX                                                                     |
+| 10   | MCU_RX             | UART connection to MCU RX                                                                     |
 
 ---
 
