@@ -1,6 +1,6 @@
 # Project Hermetica – System Specification (Draft)
 
-**Version:** 0.2  
+**Version:** 0.3  
 **Date:** 2026-04-13  
 **Owner:** Daniel Johnson  
 **Status:** Draft / In Definition  
@@ -100,20 +100,237 @@ The system is intended to:
 
 ### 3.0 Roles, Authority and Responsibilites
 
-A Role defines a logical set of responsibilities within the system, independent of physical implementation.
-
 A Role:
-
 - Owns a clearly defined functional domain
 - Has explicitly defined inputs and outputs
 - May enforce local constraints within its domain
 - May participate in system-wide decision making depending on its authority
 
-A Role does not imply a specific PCB, MCU, or software component.
+The FCU is composed of a set of defined Roles. Each Role encapsulates a specific set of Responsibilities and operates within a defined domain.
 
-A single physical component may implement one or more Roles.
+Roles are independent of physical implementation and may be assigned to any suitable Stack Layer or Node.
 
-### 3.1 Flight Control
+---
+
+#### 3.0.5 Flight Control Role
+
+The Flight Control Role is responsible for generating actuator commands required to achieve and maintain controlled flight.
+
+Responsibilities:
+- Stabilisation (rate and attitude control)
+- Navigation (position and velocity control)
+- Flight mode handling and transitions
+- Command generation for actuators
+- Enforcement of flight-related constraints
+
+Inputs:
+- Sensor data (IMU, GNSS, barometer, etc.)
+- Pilot commands (via RC or ground interface)
+- System State
+- Constraints from higher-authority roles
+
+Outputs:
+- Actuator command signals
+- Flight state information
+
+---
+
+#### 3.0.10 Sensor Processing Role
+
+The Sensor Processing Role is responsible for acquiring, validating, and conditioning sensor data for use by other Roles.
+
+Responsibilities:
+- Sensor data acquisition
+- Calibration and compensation
+- Data validation and plausibility checking
+- Sensor fusion (if implemented within this role)
+
+Inputs:
+- Raw sensor measurements
+
+Outputs:
+- Conditioned sensor data
+- State estimates (if applicable)
+- Sensor health/status information
+
+---
+
+#### 3.0.15 Actuation Role
+
+The Actuation Role is responsible for converting actuator commands into physical outputs.
+
+Responsibilities:
+- Driving ESCs and servos
+- Output signal generation (PWM, digital protocols, etc.)
+- Monitoring actuator response (if feedback is available)
+- Enforcing actuator-level safety constraints
+
+Inputs:
+- Actuator commands from Flight Control Role
+- System State
+- Constraints from higher-authority roles
+
+Outputs:
+- Physical actuator signals
+- Actuator status and health information
+
+---
+
+#### 3.0.20 Power Management Role
+
+The Power Management Role is responsible for the distribution, monitoring, and protection of electrical power within the FCU.
+
+Responsibilities:
+- Power distribution across defined Power Domains
+- Voltage, current, and temperature monitoring
+- Fault detection and protection
+- Power domain control (enable/disable)
+- Enforcement of electrical safety constraints
+
+Inputs:
+- Electrical measurements (voltage, current, temperature)
+- System State
+
+Outputs:
+- Power status information
+- Fault signals
+- Power domain control signals
+
+---
+
+#### 3.0.25 Communication Role
+
+The Communication Role is responsible for the exchange of data between system components and external interfaces.
+
+Responsibilities:
+- Message transport across internal and external interfaces
+- Protocol handling and abstraction
+- Routing of messages between Roles
+- Ensuring data integrity and timing constraints
+
+Inputs:
+- Messages from Roles and external interfaces
+
+Outputs:
+- Routed and transmitted messages
+- Communication status information
+
+---
+
+#### 3.0.30 System Management Role
+
+The System Management Role is responsible for overall system coordination and state management.
+
+Responsibilities:
+- System State management and transitions
+- Arming and disarming logic
+- Coordination between Roles
+- Enforcement of system-level constraints
+- Handling of global fault conditions
+
+Inputs:
+- Status and health information from all Roles
+- External control inputs
+
+Outputs:
+- System State
+- Control signals affecting other Roles
+- Global fault responses
+
+---
+
+#### 3.0.35 Payload Role (Optional)
+
+The Payload Role is responsible for control and management of mission-specific payloads.
+
+Responsibilities:
+- Payload control and operation
+- Data acquisition from payload systems
+- Integration with mission objectives
+
+Inputs:
+- Commands from Flight Control or external interfaces
+
+Outputs:
+- Payload data
+- Payload status information
+
+---
+
+### 15.10 Responsibilities
+
+Responsibilities define the behavioural obligations of Roles within the FCU.
+
+Each Responsibility represents a specific aspect of system behaviour that must be fulfilled for correct operation.
+
+---
+
+#### 15.10.5 Assignment
+
+- Every Responsibility shall be owned by exactly one Role.  
+- A Role may own multiple Responsibilities.  
+- Responsibilities shall not be shared between Roles to avoid ambiguity in ownership.  
+
+---
+
+#### 15.10.10 Scope
+
+- Each Responsibility shall have clearly defined boundaries.  
+- Responsibilities shall not overlap in scope.  
+- Responsibilities may depend on outputs from other Responsibilities but shall not duplicate them.  
+
+---
+
+#### 15.10.15 Inputs and Outputs
+
+- Each Responsibility shall define its required inputs.  
+- Each Responsibility shall define its expected outputs.  
+- Inputs and outputs shall be explicitly defined to enable consistent integration between Roles.  
+
+---
+
+#### 15.10.20 Behavioural Guarantees
+
+- Each Responsibility shall define the conditions it must maintain or enforce.  
+- Responsibilities shall produce deterministic outcomes given valid inputs.  
+- Responsibilities shall handle invalid or missing inputs in a defined manner.  
+
+---
+
+#### 15.10.25 Constraints
+
+- Responsibilities may enforce constraints within their domain.  
+- Responsibilities shall operate within constraints imposed by higher-authority Roles.  
+- Conflicting constraints shall be resolved according to the Authority model.  
+
+---
+
+#### 15.10.30 Failure Handling
+
+- Each Responsibility shall define failure conditions relevant to its domain.  
+- Responsibilities shall detect and report failures where possible.  
+- Responsibilities shall define safe behaviour in the presence of faults.  
+
+---
+
+#### 15.10.35 Independence
+
+- Responsibilities shall be independent of physical implementation.  
+- Responsibilities shall not assume specific hardware, communication interfaces, or execution environments.  
+
+---
+
+#### 15.10.40 Composability
+
+- Responsibilities shall be designed to allow composition into larger system behaviours.  
+- Responsibilities may be reused across different Roles or system configurations, provided ownership remains unambiguous.  
+
+---
+
+
+### 3.1 Control Stack
+
+
 
 - Stabilization (rate + attitude)
 - Navigation (position, velocity)
@@ -164,12 +381,11 @@ A single physical component may implement one or more Roles.
 ### 3.4 Communication
 
 **Primary Backbone:**
-- CAN / FDCAN (mandatory)
+- FDCAN (mandatory)
 
 **Secondary Interfaces:**
-- UART (FBUS, SBUS, GPS)
+- UART (FBUS, SBUS, GPS, debugging)
 - SPI / I²C (local peripherals)
-- USB (config/debug)
 
 **Protocol Stack:**
 - [ ] MAVLink  
@@ -197,7 +413,7 @@ A single physical component may implement one or more Roles.
 
 ---
 
-## 4. Hardware Specification
+## 4. Physical - Hardware Specification
 
 ### 4.0 Standardised Parts List
 
@@ -288,9 +504,49 @@ Although individual nodes will require specific hardware, it is sensible to stan
 
 ### 4.6 Backbone Header
 
+The Backbone is the core communications layer of the Flight Control Stack. It contains a mixture of power and data.
+
+The physical component for the Backbone Header has not yet been selected and is likely to change during early development stages.
+
+#### 4.6.1 Logical Backbone Header
+
+Without locking down a pinout, it is possible to define what power and data is required on the Backbone.
+
+|   | Name               | Notes                                                                                         |
+|---|--------------------|-----------------------------------------------------------------------------------------------|
+|   | CAN1<sub>LOW</sub>, CAN1<sub>HIGH</sub>, GND<sub>SIGNAL</sub> | Primary CAN-FD communications bus                  |
+|   | CAN2<sub>LOW</sub>, CAN2<sub>HIGH</sub>, GND<sub>SIGNAL</sub> | Secondary CAN-FD communications bus                |
+|   | 5V<sub>STACK</sub>, GND<sub>POWER</sub>                       | 5V/3A power bus for powering the Flight Stack      |
+|   | 5V<sub>NODES</sub>, GND<sub>POWER</sub>                       | 5V/3A power bus for powering the Nodes             |
+|   | nRESET                       | Active low, Flight Stack reset signal             |
+|   | ARMED                        | Active high, FCU "Armed" state             |
+|   | PGOOD<sub>STACK</sub>                     | Active high, 5V<sub>STACK</sub> power good      |
+|   | PGOOD<sub>NODES</sub>                     | Active high, 5V<sub>NODES</sub> power good      |
+|   | nFAULT                       | Active low, Flight Stack catastrophic fault signal             |
+|   | LOAD<sub>STACK</sub>                       | Load of 5V<sub>STACK</sub> bus          |
+|   | LOAD<sub>NODES</sub>                       | Load of 5V<sub>NODES</sub> bus          |
+|   | SYNC                       | Active high, periodic deterministic pulse for synchronisation |
+
+##### 4.6.1 CAN1<sub>LOW</sub>, CAN1<sub>HIGH</sub>
+
+##### 4.6.2 CAN2<sub>LOW</sub>, CAN2<sub>HIGH</sub>
+
+##### 4.6.3 5V<sub>STACK</sub>, GND<sub>POWER</sub>
+
+##### 4.6.4 5V<sub>NODES</sub>, GND<sub>NODES</sub>
+
+##### 4.6.5 nRESET
+
+(Hard to seperate logical from physical here.)
+
+The nRESET signal may be set LOW by any Stack Layer in the Flight Control Stack.
+The signal is pulled HIGH by default by the Stack Layer with the Power Management Role.
+
 ### 4.7 
 
 ### 4.7 Flight Stack Layers
+
+All Flight Stack Layers communicate over the Backbone via CAN1, CAN2, or both.
 
 #### 4.7.1 Power Distribution Board (PDB)
 
@@ -299,7 +555,6 @@ The PDB is the central electrical hub of a system designed to take power from th
 - STM32G484CET6
 - I/O: Debug connector
 - IN: Connection for primary batteries (PD1)
-- OUT: (PD1) 4x high current (~100A) pass-through ESC connections
 - OUT: (PD1) 2x low current (2A) pass-through VTX connections
 - OUT: (PD2) Voltage regulation to 5.0V @ 3A for stack power  
 - OUT: (PD3) Voltage regulation to 5.0V @ 3A for distributed node power (PD3)
@@ -325,6 +580,24 @@ The PDB is the central electrical hub of a system designed to take power from th
 - Optional CAN-FD bus termination
 - Responsible for feeding arming signal on backbone
 
+  Roles:
+
+#### 4.7.2 Advanced Navigation & Mission Board
+
+- TBC
+
+#### 4.7.2 OSD and video integration
+
+- TBC
+
+#### 4.7.2 Blackbox and Telemetry Storage
+
+- TBC
+
+#### 4.7.2 RADAR Data Processing Board
+
+- TBC
+
 ---
 
 ### 4.8 Debug Connector
@@ -344,8 +617,8 @@ Standardised connector across all PCB's for connection to a debugging board.
 | 6    | SWO                | SWD - SWO signal                                                                              |
 | 7    | BOOT0              | Pull-down on target on board                                                                  |
 | 8    | nRESET             | Pull-up on target board                                                                       |
-| 9    | MCU_TX             | UART connection to MCU TX                                                                     |
-| 10   | MCU_RX             | UART connection to MCU RX                                                                     |
+| 9    | MCU<sub>TX</sub>   | UART connection to MCU TX                                                                     |
+| 10   | MCU<sub>RX</sub>   | UART connection to MCU RX                                                                     |
 
 #### 4.8.1 FITTED
 
@@ -356,10 +629,10 @@ For example, the FCU could refuse to arm the motors and spin the propellors if F
 
 BOOT0 is broken out so that the MCU can be forced to start in bootloader mode in an emergency. It should be pulled-down on the target PCB.
 
-#### 4.8.3 MCU_TX and MCU_RX
+#### 4.8.3 MCU<sub>TX</sub> and MCU<sub>RX</sub>
 - 
-MCU_TX and MCU_RX are broken out so that the MCU can be emergency flashed. They should be connected to a USART capable of flashing the bootloader.
-For most STM32 MCU's this is USART1, USART2 or USART3. During normal operation, the USART may be used for debugging.
+MCU<sub>TX</sub> and MCU<sub>RX</sub> are broken out so that the MCU can be emergency flashed. They should be connected to a USART capable of flashing the bootloader.  
+- For most STM32 MCU's this is USART1, USART2 or USART3. During normal operation, the USART may be used for debugging.  
 
 
 ---
@@ -389,24 +662,6 @@ CAN<sub>LOW</sub> and CAN<sub>HIGH</sub> are a differential signal and should be
 
 - The primary firmware will be written in C/C++ on a *baremetal* level (HAL is acceptable)  
 - Additional nodes may use whatever they like  
-
----
-
-### 5.2 Task Model
-
-| Task | Priority | Frequency | Core |
-|------|--------|----------|------|
-| Control loop | ___ | ___ Hz | ___ |
-| Sensor fusion | ___ | ___ Hz | ___ |
-| Comms | ___ | ___ Hz | ___ |
-| Logging | ___ | ___ Hz | ___ |
-
----
-
-### 5.3 Inter-Core Communication (if applicable)
-
-- Mechanism: ___________ (e.g. shared memory, mailbox, UART, RPMsg)  
-- Failure handling: ___________  
 
 ---
 
@@ -455,7 +710,7 @@ CAN<sub>LOW</sub> and CAN<sub>HIGH</sub> are a differential signal and should be
 
 ## 7. Performance Targets
 
-- Control loop frequency: 10 kHz  
+- Control loop frequency: 1 kHz  
 - End-to-end latency: sub 20 ms  
 - Boot time: sub 3 s  
 - Max supported nodes (CANFD): 64  
@@ -535,11 +790,11 @@ Hermetica must remain **independent of Aetherion** until integration.
 - Payload ecosystem  
 - OSD integration
 
+
 ---
 
 ## 14. Future Extensions
 
-- Distributed CAN sensor/actuator nodes  
-- Autonomous mission engine  
-- Swarm capability  
-- AI-assisted control  
+- TBC
+
+
