@@ -21,19 +21,41 @@ The FCU is the Hermetica hardware and software combined together to form a worki
 
 #### 0.3.2 Flight Control Stack
 
-The Flight Control Stack is a centralised physical point, comprised of multiple vertically stacked PCB's with a common backbone header. Is is responsible for actually flying the airframe.
+The Flight Control Stack is a centralised physical point, comprised of multiple vertically stacked PCB's with a common Backbone header. Is is responsible for actually flying the airframe.                                                  
 
 #### 0.3.3 Backbone
 
-A vertically stacking header on each PCB in the Flight Control Stack to facilitate power distribution and signalling.
+A vertically stacking header on each PCB in the Flight Control Stack to facilitate power distribution to Stack Layers and signalling between them.
 
 #### 0.3.4 Stack Layer
 
-A physical PCB within the vertical Flight Control Stack. Each will have specific roles and responsibilities.
+A physical PCB within the vertical Flight Control Stack.
 
 #### 0.3.5 Node
 
-A physical PCB within the FCU, connected to, but external to the Flight Control Stack. Each will have specific roles and responsibilities.
+A physical PCB within the FCU, connected to, but external to the Flight Control Stack via defined interfaces and operating semi-independantly.
+
+#### 0.3.6 Role
+
+A Role defines a logical set of Responsibilites within the system, independent of physical implementation.
+
+#### 0.3.7 Authority
+
+Authority defines the level of control a role has over system behaviour.
+
+#### 0.3.8 Power Domain
+
+A Power Domain is a distinct electrical rail with defined voltage, current capability, and purpose.
+
+#### 0.3.9 System State
+
+The System State represents the current operational mode of the FCU.
+
+#### 0.3.10 Responsibility
+
+A Responsibility is a defined aspect of system behaviour that a Role is accountable for, independent of implementation.
+
+---
 
 ## 1. Purpose
 
@@ -75,6 +97,21 @@ The system is intended to:
 ---
 
 ## 3. Functional Scope
+
+### 3.0 Roles, Authority and Responsibilites
+
+A Role defines a logical set of responsibilities within the system, independent of physical implementation.
+
+A Role:
+
+- Owns a clearly defined functional domain
+- Has explicitly defined inputs and outputs
+- May enforce local constraints within its domain
+- May participate in system-wide decision making depending on its authority
+
+A Role does not imply a specific PCB, MCU, or software component.
+
+A single physical component may implement one or more Roles.
 
 ### 3.1 Flight Control
 
@@ -162,6 +199,25 @@ The system is intended to:
 
 ## 4. Hardware Specification
 
+### 4.0 Standardised Parts List
+
+Although individual nodes will require specific hardware, it is sensible to standard parts across all components where feasible.
+
+| Type           | Manufacturer               | Part Number | Package            |
+|---|---|---|---|
+| Microcontroller  | STM | STM32H755ZIT6 | LQFP-144 20x20x1.4 |
+| Microcontroller  | STM | STM32G484CET6 | LQFP-48 7x7x1.4 |
+|   |  |  |  |
+|   |  |  |  |
+|   |  |  |  |
+|   |  |  |  |
+
+
+
+
+
+
+
 ### 4.1 Processing Architecture
 
 - MCU: Will be dependant upon individual stack layer requirements:
@@ -234,7 +290,7 @@ The system is intended to:
 
 ### 4.7 
 
-### 4.7 FCU Stack Layers
+### 4.7 Flight Stack Layers
 
 #### 4.7.1 Power Distribution Board (PDB)
 
@@ -294,11 +350,11 @@ Standardised connector across all PCB's for connection to a debugging board.
 #### 4.8.1 FITTED
 
 FITTED is pulled to  V<sub>TARGET</sub> on the debugging board. This is to enable the detection of the debugging hardware should conditional logic be required.
-For example, the stack could refuse to arm the motors and spin the propellors if FITTED was high. You know, to save fingers.
+For example, the FCU could refuse to arm the motors and spin the propellors if FITTED was high. You know, to save fingers.
 
 #### 4.8.2 BOOT0
 
-BOOT0 is broken out so that the MCU can be forced to start in bootloader mode in an emergency. It should be pulled-down on the target board.
+BOOT0 is broken out so that the MCU can be forced to start in bootloader mode in an emergency. It should be pulled-down on the target PCB.
 
 #### 4.8.3 MCU_TX and MCU_RX
 - 
@@ -401,7 +457,7 @@ CAN<sub>LOW</sub> and CAN<sub>HIGH</sub> are a differential signal and should be
 
 - Control loop frequency: 10 kHz  
 - End-to-end latency: sub 20 ms  
-- Boot time: sub 10 s  
+- Boot time: sub 3 s  
 - Max supported nodes (CANFD): 64  
 - Max actuator count: 10+  
 
