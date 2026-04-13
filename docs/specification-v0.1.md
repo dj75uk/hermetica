@@ -1,7 +1,7 @@
 # Project Hermetica – System Specification (Draft)
 
-**Version:** 0.1  
-**Date:** 2026-04-10  
+**Version:** 0.2  
+**Date:** 2026-04-13  
 **Owner:** Daniel Johnson  
 **Status:** Draft / In Definition  
 
