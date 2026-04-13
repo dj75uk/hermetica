@@ -7,14 +7,42 @@
 
 ---
 
+## 0. Nomenclature
+
+### 0.1 On the name "Hermetica"
+
+### 0.2 On the name "Aetherion"
+
+### 0.3 Definitions
+
+#### 0.3.1 FCU
+
+The FCU is the Hermetica hardware and software combined together to form a working, cohesive unit. It emcompasses the centralised control system and any communicating devices.
+
+#### 0.3.2 Flight Control Stack
+
+The Flight Control Stack is a centralised physical point, comprised of multiple vertically stacked PCB's with a common backbone header. Is is responsible for actually flying the airframe.
+
+#### 0.3.3 Backbone
+
+A vertically stacking header on each PCB in the Flight Control Stack to facilitate power distribution and signalling.
+
+#### 0.3.4 Stack Layer
+
+A physical PCB within the vertical Flight Control Stack. Each will have specific roles and responsibilities.
+
+#### 0.3.5 Node
+
+A physical PCB within the FCU, connected to, but external to the Flight Control Stack. Each will have specific roles and responsibilities.
+
 ## 1. Purpose
 
-Hermetica is a **modular, scalable flight control unit (FCU) platform** designed to support UAV systems ranging from hobbyist to industrial-grade deployments.
+Hermetica is a **modular, distributed, resiliant, scalable flight control unit (FCU) platform** designed to support UAV systems ranging from hobbyist to industrial-grade deployments.
 
 The system is intended to:
 - Provide **reliable real-time flight control**
 - Enable a **modular hardware + software ecosystem**
-- Establish **CAN-first architecture** for UAV systems
+- Establish **CAN-FD-first architecture** for UAV systems
 - Support progression toward **fully autonomous operation**
 
 ---
@@ -31,12 +59,9 @@ The system is intended to:
 - Ground Interface
 
 **Architecture Model:**
-- [ ] Monolithic FCU  
-- [ ] Distributed (CAN nodes for sensors/actuators)  
-- [ ] Hybrid (central FCU + smart peripherals)  
-
-> **Selected Approach:** ___________
-
+- A central flight control "stack" with multiple external nodes.
+- The system will be inheirantly distributed with components performing strict roles with strict responsibilities.
+- 
 ---
 
 ### 2.2 Design Principles
@@ -73,7 +98,8 @@ The system is intended to:
 - [ ] Stabilized  
 - [ ] Assisted (altitude / position hold)  
 - [ ] Fully autonomous  
-- [ ] Return-to-home  
+- [ ] Return-to-home (RTH)
+- [ ] Loiter
 - [ ] Failsafe modes  
 
 ---
@@ -120,10 +146,8 @@ The system is intended to:
 
 ### 3.5 Payload Control
 
-- Servo outputs: ___ channels  
-- Digital outputs: ___  
-- Smart payload interface (CAN): [ ] Yes / [ ] No  
-
+- Controlled via CAN-FD messaging
+  
 ---
 
 ### 3.6 Logging & Telemetry
@@ -160,15 +184,15 @@ The system is intended to:
 
 ---
 
-### 4.3 I/O Budget
+### 4.3 Common interface usage
 
-| Interface | Usage |
-|-----------|-------|
-| FDCAN     | Redundant primary backbone |
-| UART      | Debugging connector, low speed communication |
-| SPI       | Local FRAM, high-speed sensors |
-| I²C       | Low-speed sensors |
-| GPIO      | General low-speed signalling and input capture    |
+| Interface | Usage                                              |
+|-----------|----------------------------------------------------|
+| FDCAN     | Redundant primary backbone                         |
+| UART      | Debugging connector, low speed communication       |
+| SPI       | Local FRAM, high-speed sensors                     |
+| I²C       | Low-speed sensors                                  |
+| GPIO      | General low-speed signalling and input capture     |
 | PWM       | Avoid using unless explicitly required on node     |
 | ADC       | Avoid using if possible, prefer digital interfaces |
 | DAC       | Avoid using if possible, prefer digital interfaces |
@@ -208,8 +232,9 @@ The system is intended to:
 
 ### 4.6 Backbone Header
 
+### 4.7 
 
-### 4.7 Minimum Stack Layers
+### 4.7 FCU Stack Layers
 
 #### 4.7.1 Power Distribution Board (PDB)
 
