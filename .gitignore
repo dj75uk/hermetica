@@ -39,3 +39,10 @@
 
 # debug information files
 *.dwo
+
+# kicad specific files
+fp-info-cache
+_autosave-*
+*.kicad_pcb.lck
+*.kicad_sch.lck
+*.zip
