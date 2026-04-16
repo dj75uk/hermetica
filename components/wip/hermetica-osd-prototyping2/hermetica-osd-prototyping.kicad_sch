@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2eb6ac18-769b-44f0-a6f6-cb743638cdeb")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 55.88 53.34)
+		(size 35.56 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "008a356d-97cf-4020-8016-2fdc0bda5d05")
+		(property "Sheetname" "power"
+			(at 55.88 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 55.88 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hermetica-osd-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 81.28)
+		(size 33.02 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ca60edb-2dcb-4548-b63d-8b0ccaa8eb15")
+		(property "Sheetname" "canbus"
+			(at 99.06 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "canbus.kicad_sch"
+			(at 99.06 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hermetica-osd-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 81.28)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d3716ee-24c6-4c51-9c34-c9e44ef0d72a")
+		(property "Sheetname" "logic"
+			(at 144.78 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic.kicad_sch"
+			(at 144.78 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hermetica-osd-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 53.34)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b655cdd2-d4c3-48bc-80bb-2af7c65f2c52")
+		(property "Sheetname" "videosync"
+			(at 144.78 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "videosync.kicad_sch"
+			(at 144.78 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hermetica-osd-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 53.34)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cddd619b-4270-4f95-99a5-ee55dbae17fd")
+		(property "Sheetname" "connectors"
+			(at 99.06 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 99.06 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hermetica-osd-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 81.28)
+		(size 35.56 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed9b3813-e004-478b-bfbb-76c65a2bdf53")
+		(property "Sheetname" "mcu"
+			(at 55.88 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 55.88 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hermetica-osd-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
