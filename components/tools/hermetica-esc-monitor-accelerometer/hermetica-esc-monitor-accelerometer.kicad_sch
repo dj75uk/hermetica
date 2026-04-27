@@ -1,0 +1,4776 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c652db9d-b8ad-424e-9fa3-f3031569e37e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DJ:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_0"
+				(text "+3V3"
+					(at 0 3.429 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DJ:+5V0"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V0"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power - Power symbol creates a global label with name \"+5V0\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V0_0_0"
+				(text "+5V0"
+					(at 0 3.429 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(symbol "+5V0_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DJ:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "djStandard:C_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DJ:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_0"
+				(text "GND"
+					(at 0 -3.429 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DJ:KINGBRIGHT-LED-0402-GREEN"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KINGBRIGHT-LED-0402-GREEN"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "djStandard:KINGBRIGHT-LED-APHHS1005-0402"
+				(at 15.24 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/216/APHHS1005CGCK-38896.pdf"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED KINGBRIGHT APHHS1005 0402 GREEN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode JANOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KINGBRIGHT-LED-0402-GREEN_0_0"
+				(text "F"
+					(at -0.889 -2.921 0)
+					(effects
+						(font
+							(size 0.3048 0.3048)
+						)
+					)
+				)
+				(text "Green"
+					(at 0 -1.651 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+					)
+				)
+				(text "V =2.1"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+					)
+				)
+			)
+			(symbol "KINGBRIGHT-LED-0402-GREEN_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KINGBRIGHT-LED-0402-GREEN_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DJ:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "djStandard:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic - Resistor - 2-Pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DJ:STM-IIS3DWBG1TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "IIS3DWBTR"
+				(at 45.212 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "djStandard:STM-IIS3DWBG1TR"
+				(at 45.212 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/iis3dwb.pdf"
+				(at 31.75 -177.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultrawide bandwidth, low-noise, 3-axis digital vibration sensor"
+				(at 45.212 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.86"
+				(at 31.75 -377.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-IIS3DWBTR"
+				(at 31.75 -477.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/IIS3DWBTR?qs=%252B6g0mu59x7IIEe51lWewNQ%3D%3D"
+				(at 31.75 -577.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 31.75 -677.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IIS3DWBTR"
+				(at 31.75 -777.14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMD SMT STM ACCELEROMETER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "STM-IIS3DWBG1TR_1_1"
+				(rectangle
+					(start -15.24 13.335)
+					(end 15.24 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "VDD_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -13.97 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -16.51 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -25.4 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -25.4 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "SPI_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "SPI_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "SPI_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "SPI_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 20.32 -13.97 180)
+					(length 5.08)
+					(hide yes)
+					(name "RES_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 20.32 -16.51 180)
+					(length 5.08)
+					(hide yes)
+					(name "RES_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DJ:TI-LP5912Q3.3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TI-LP5912Q3.3"
+				(at 38.1 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "djStandard:TI-DRV0006A"
+				(at 38.1 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp5912-q1.pdf?ts=1634073182967&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLP5912-Q1%253Fqgpn%253Dlp5912-q1"
+				(at 64.77 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Texas Instruments - Voltage Regulator - SMD LP5912 3.3V 500mA WSON6 LDO=95mV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TI-LP5912Q3.3_0_0"
+				(text "1.9V ≤ 6.5V"
+					(at -11.43 1.905 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+							(italic yes)
+						)
+						(justify left)
+					)
+				)
+				(text "Connect to VIN"
+					(at -11.43 -3.175 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+							(italic yes)
+						)
+						(justify left)
+					)
+				)
+				(text "Texas Instruments"
+					(at 0 17.78 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(text "LDO Voltage Regulator"
+					(at 0 15.24 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(text "LP5912Q3.3"
+					(at 0 12.7 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(text "3.3V Fixed Output"
+					(at 0 10.16 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+							(bold yes)
+						)
+					)
+				)
+				(text "-40°C to 125°C"
+					(at 0 7.62 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+					)
+				)
+				(text "CIN ≥ COUT"
+					(at 0 6.35 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+					)
+				)
+				(text "COUT 1µF ≤ 10µF X7R ESR ≤ 500mΩ"
+					(at 0 5.08 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+					)
+				)
+				(text "3.3V @ 500mA"
+					(at 11.43 1.905 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+							(italic yes)
+						)
+						(justify right)
+					)
+				)
+				(text "Use 10kΩ pullup or GND"
+					(at 11.43 -13.335 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+							(italic yes)
+						)
+						(justify right)
+					)
+				)
+				(pin power_in line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TI-LP5912Q3.3_0_1"
+				(rectangle
+					(start -12.7 20.32)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 107.95 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19ef2911-ff0a-41d5-a210-e8559798fbc6")
+	)
+	(junction
+		(at 30.48 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2658c161-7bc6-4947-9302-ccb5cbeb0805")
+	)
+	(junction
+		(at 107.95 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c94b0ca-76e6-427f-83fa-945f60a3ddae")
+	)
+	(junction
+		(at 39.37 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68e53706-d9a7-4b40-abbf-d4a8052a3e32")
+	)
+	(junction
+		(at 39.37 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "896b0c18-8cce-4303-b071-d13c6ddb9569")
+	)
+	(junction
+		(at 39.37 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f4f7e53-a3bf-4e1f-bb38-57da23cc0d70")
+	)
+	(junction
+		(at 73.66 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5e376e4-7697-426f-be6b-642242cb210c")
+	)
+	(junction
+		(at 127 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd1443c2-c5ae-4125-b084-06dd81f0f155")
+	)
+	(wire
+		(pts
+			(xy 156.21 88.9) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a4d42b-212e-44a8-81c9-ee85fd0b653b")
+	)
+	(wire
+		(pts
+			(xy 107.95 83.82) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04069975-2684-4cbe-adda-941a3c51d483")
+	)
+	(wire
+		(pts
+			(xy 25.4 92.71) (xy 30.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e8d400-d129-455c-9508-8a8206963d2f")
+	)
+	(wire
+		(pts
+			(xy 107.95 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f020dac-f3f8-4009-97ab-afc81e100bab")
+	)
+	(wire
+		(pts
+			(xy 156.21 91.44) (xy 176.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176d4ed5-15fc-4512-b163-b219882f7738")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dd64c6-da1c-4854-ae0a-999b477d832e")
+	)
+	(wire
+		(pts
+			(xy 30.48 93.98) (xy 30.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d07124-ff76-42a4-a3f0-244c07b6fe76")
+	)
+	(wire
+		(pts
+			(xy 224.79 80.01) (xy 232.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ca897b-95f3-49cf-90f7-c43af9ea372a")
+	)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f6447f-2ac3-4864-ad8b-fa920c3490cf")
+	)
+	(wire
+		(pts
+			(xy 224.79 92.71) (xy 232.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4480f4cb-4a8c-46dc-85ac-66c58c21f638")
+	)
+	(wire
+		(pts
+			(xy 156.21 78.74) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c52b864-a164-4c8f-ae03-c7cfa7ce8943")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 176.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fc133d-4b63-421e-bb82-d374a4969aec")
+	)
+	(wire
+		(pts
+			(xy 224.79 82.55) (xy 232.41 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7674e96b-ebeb-4f3d-8793-4ea21427688a")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8706e5a5-e69c-4a58-8fbe-ac92961184af")
+	)
+	(wire
+		(pts
+			(xy 224.79 90.17) (xy 232.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a253db7-07a7-4f8a-8e34-39cf66fc2db8")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf2e6bd-fda2-4071-a48a-bf7ef920e19e")
+	)
+	(wire
+		(pts
+			(xy 39.37 105.41) (xy 39.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efd9796-d745-4613-adb6-788a7a4cab1e")
+	)
+	(wire
+		(pts
+			(xy 69.85 107.95) (xy 69.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928eb51c-e406-426a-812d-90822556b8fb")
+	)
+	(wire
+		(pts
+			(xy 73.66 93.98) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d82482-3c47-459a-a02c-1051e5d5e8f9")
+	)
+	(wire
+		(pts
+			(xy 224.79 85.09) (xy 232.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00989c5-fe93-4fab-87b8-f409040cd2c0")
+	)
+	(wire
+		(pts
+			(xy 148.59 91.44) (xy 151.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9db3662-6119-430f-844f-be6b69982623")
+	)
+	(wire
+		(pts
+			(xy 148.59 86.36) (xy 176.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba0b926-636d-44ce-9d67-58d998a016f8")
+	)
+	(wire
+		(pts
+			(xy 39.37 102.87) (xy 39.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b77c37-4f45-44a7-b582-58b21f30d134")
+	)
+	(wire
+		(pts
+			(xy 107.95 100.33) (xy 107.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58ade12-7fff-4d56-af3f-718caa3fa172")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 107.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c6b746-6c6c-4e1a-8be7-34a828d1d195")
+	)
+	(wire
+		(pts
+			(xy 73.66 92.71) (xy 78.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b50351-f9ac-47b2-94a3-3a55413e5cbf")
+	)
+	(wire
+		(pts
+			(xy 181.61 104.14) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db13b05b-1b03-4775-a224-46b842ec81a1")
+	)
+	(wire
+		(pts
+			(xy 39.37 107.95) (xy 39.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15d45de-7896-40e7-b5d7-84d81ccb7e4e")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ca8502-e223-4f2b-b23c-9b4c8a550a3d")
+	)
+	(wire
+		(pts
+			(xy 224.79 87.63) (xy 232.41 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e455eda1-dd9c-4f0d-9553-c4ab05315606")
+	)
+	(wire
+		(pts
+			(xy 39.37 92.71) (xy 39.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafe330c-3b26-493e-a6a2-7c8621cddd1e")
+	)
+	(wire
+		(pts
+			(xy 30.48 92.71) (xy 39.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce03bca-f379-4c55-aa6b-043aeeefc8b6")
+	)
+	(wire
+		(pts
+			(xy 107.95 67.31) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7619f0-195b-4b1e-bd8a-30f0cd69d246")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 151.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff08aabe-4e36-4ac5-a9ca-be1998b8ee97")
+	)
+	(label "CS"
+		(at 181.61 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b7688d6-8ce5-4daf-9487-3b105c62d2ce")
+	)
+	(label "MISO"
+		(at 224.79 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38490a12-d9f7-4f7a-8163-1bb35ff52cf5")
+	)
+	(label "INT1"
+		(at 176.53 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f87c7c3-0587-404f-9c95-8194930b0c7b")
+	)
+	(label "INT2"
+		(at 224.79 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e2d3df6-7428-4fbf-bc55-4c64d027821b")
+	)
+	(label "MOSI"
+		(at 224.79 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "951883bb-9cd3-49ea-bea0-fa14f3cbaf2e")
+	)
+	(label "CLK"
+		(at 176.53 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af72d106-5acb-4bc5-ab17-a87a09666d25")
+	)
+	(label "INT1"
+		(at 224.79 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5ab6a3d-68c1-460f-bd81-0458cbb1632e")
+	)
+	(label "CS"
+		(at 176.53 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8470a57-fc6b-4408-9a84-8ce9bfc9df3e")
+	)
+	(label "CLK"
+		(at 224.79 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5d64a5f-080d-4002-920f-fcea61717ef3")
+	)
+	(label "CS"
+		(at 224.79 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8d377a4-0308-4c43-b299-975e053dd1e0")
+	)
+	(label "MOSI"
+		(at 176.53 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3997ddf-8e3f-455f-ae6e-23f0ed31322d")
+	)
+	(label "INT2"
+		(at 176.53 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebdae302-cff4-4f48-8ef9-229a2d304f95")
+	)
+	(label "MISO"
+		(at 176.53 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc69c278-ecec-4939-938f-5b98fe745501")
+	)
+	(symbol
+		(lib_id "DJ:+5V0")
+		(at 25.4 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02637a68-b50b-418e-8c08-22e58357f32e")
+		(property "Reference" "#PWR018"
+			(at 25.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V0"
+			(at 25.4 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+5V0\""
+			(at 25.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bf7c183-bf83-4996-8ce1-c2e4330d80fd")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:R")
+		(at 189.23 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09cbfb9c-0c18-40e6-a8e9-6de064266d98")
+		(property "Reference" "R2"
+			(at 191.77 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 191.77 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "djStandard:R_0603_1608Metric"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Resistor - 2-Pin"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f24bcd8-20a6-4687-b513-4ba70ac49d2e")
+		)
+		(pin "2"
+			(uuid "5ee9cca5-e387-45e6-80f8-12a48def6a28")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 30.48 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e3aaf1e-436b-47c4-a3ea-a31cb87d51f8")
+		(property "Reference" "#PWR022"
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a742356-4096-44b0-bbd3-504670d6e457")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 237.49 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18bac8f7-2ad9-4101-b0dc-b1d445412015")
+		(property "Reference" "J9"
+			(at 240.03 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 240.03 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "908ee798-248f-41d8-b8ce-c862dbb97e0a")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 73.66 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23bdfbb3-6b6e-4f8a-8433-1ad487696c9b")
+		(property "Reference" "#PWR023"
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "081dcfe1-4eab-4ce6-bd54-1580c5f336b1")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 69.85 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d422d0b-ac25-46b0-8113-e910c538f508")
+		(property "Reference" "#PWR025"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f24c031f-d45c-41de-b736-71cc5ed5a98e")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:C")
+		(at 119.38 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3da99a0c-2021-4810-a43e-1ea6a86b12d3")
+		(property "Reference" "C2"
+			(at 121.92 40.6462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 121.92 43.1862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "djStandard:C_0805_2012Metric"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8755d506-3011-4374-9644-cb27d1aad97b")
+		)
+		(pin "2"
+			(uuid "87fb3cca-cfd8-460c-935b-7621c902cb8b")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 232.41 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ec586cc-9bf8-45bb-b896-63e1309ed0c8")
+		(property "Reference" "#PWR09"
+			(at 232.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9a94c3a-56e8-4c97-8bd5-255f12e9a981")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:KINGBRIGHT-LED-0402-GREEN")
+		(at 59.69 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46bc9718-e723-4333-a2d4-3f9f85b23287")
+		(property "Reference" "LED1"
+			(at 63.5 134.6198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "KINGBRIGHT-LED-0402-GREEN"
+			(at 62.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:KINGBRIGHT-LED-APHHS1005-0402"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/216/APHHS1005CGCK-38896.pdf"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED KINGBRIGHT APHHS1005 0402 GREEN"
+			(at 59.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5df5dde-221b-4dbe-827c-1377b2594919")
+		)
+		(pin "2"
+			(uuid "1d9e03b3-053d-4a4c-a035-148ff59b0e6a")
+		)
+		(instances
+			(project ""
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:+5V0")
+		(at 232.41 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "497d7303-b2f3-48dd-816d-422cbfe126df")
+		(property "Reference" "#PWR010"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V0"
+			(at 232.41 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+5V0\""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6420f16f-e75a-4f9c-93c3-7542df25d0e4")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:C")
+		(at 107.95 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5435fd57-dfad-49d7-b6bb-e5aa9d9d4a86")
+		(property "Reference" "C1"
+			(at 110.49 40.6462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 110.49 43.1862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "djStandard:C_0805_2012Metric"
+			(at 107.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
+			(at 107.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "424091bb-1a58-4a8b-8558-bdf88eaa688a")
+		)
+		(pin "2"
+			(uuid "d8a058c7-b385-48f6-a40c-57f24e53c5a6")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:C")
+		(at 73.66 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55606d1d-9146-4430-8a8f-5d81b6779c58")
+		(property "Reference" "C5"
+			(at 76.2 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 76.2 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "djStandard:C_0805_2012Metric"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eef5a916-6a8f-4525-ac4b-089b4e9c9331")
+		)
+		(pin "2"
+			(uuid "550dcc23-389e-43ee-becd-e8e124c1e39e")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:R")
+		(at 59.69 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "561f1c3e-6728-4e86-9c42-2eb81257c199")
+		(property "Reference" "R1"
+			(at 62.23 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 62.23 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "djStandard:R_0603_1608Metric"
+			(at 59.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Resistor - 2-Pin"
+			(at 59.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a202fec-2104-4dbb-9669-6be969ba268f")
+		)
+		(pin "2"
+			(uuid "e4179784-b94e-4940-bb0b-43fc07160215")
+		)
+		(instances
+			(project ""
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:+3V3")
+		(at 59.69 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba2f139-3b3c-458c-8dcc-500ef99b288c")
+		(property "Reference" "#PWR07"
+			(at 59.69 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 59.69 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89d1f49a-7a5c-4c4a-bb32-1dddb95c1d7f")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 107.95 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eefe4a1-9f5e-46da-a839-702e07607a24")
+		(property "Reference" "#PWR04"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0302b8bc-bc80-485f-bb32-d5c0fb9f59ae")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 59.69 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb83c7a-504f-44e2-a30d-c56dbde64ece")
+		(property "Reference" "#PWR08"
+			(at 59.69 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "799aaa20-cf44-4217-b296-c0020b516c04")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 119.38 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68c2cc36-e146-4cdd-8de9-57c63d43deb9")
+		(property "Reference" "#PWR06"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ce85ec2-4bdf-4dfe-b749-439a90761cbb")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 237.49 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6de1011d-c334-4aed-87bf-310cdd2959ea")
+		(property "Reference" "J13"
+			(at 240.03 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 240.03 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
+			(at 237.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05774059-81c9-408d-a928-bec19b9c23ee")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 237.49 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73fcb2fb-564a-473b-a420-5c0d47500b31")
+		(property "Reference" "J10"
+			(at 240.03 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 240.03 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebcd9502-c3ef-416a-903f-ae861f8f8979")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:TI-LP5912Q3.3")
+		(at 54.61 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "792054b9-10f1-4fa1-af6c-ee26ef52031d")
+		(property "Reference" "IC2"
+			(at 54.61 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TI-LP5912Q3.3"
+			(at 92.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:TI-DRV0006A"
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp5912-q1.pdf?ts=1634073182967&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLP5912-Q1%253Fqgpn%253Dlp5912-q1"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments - Voltage Regulator - SMD LP5912 3.3V 500mA WSON6 LDO=95mV"
+			(at 54.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b7a81f8e-f4a2-4fcb-8c56-21c883a798dc")
+		)
+		(pin "6"
+			(uuid "21d09197-71bc-4936-9859-7d56b3b06808")
+		)
+		(pin "3"
+			(uuid "ef047f45-b480-4c74-9265-39cb60409072")
+		)
+		(pin "1"
+			(uuid "4eec6dfa-ffce-4fe2-bd7d-5aede38fdf97")
+		)
+		(pin "2"
+			(uuid "8b47798c-9ece-4a27-8e0e-1d85a53e75e4")
+		)
+		(pin "EP"
+			(uuid "704c03fe-7358-4afd-b536-0df115f1d659")
+		)
+		(pin "4"
+			(uuid "0c35bb74-ec82-4006-89c7-c4f79c0e5a03")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:C")
+		(at 30.48 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c80ac3f-0a8a-401f-8c81-7b4c2672143a")
+		(property "Reference" "C4"
+			(at 33.02 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 33.02 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "djStandard:C_0805_2012Metric"
+			(at 30.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
+			(at 30.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bc6703e-4973-45a2-a414-36b36b781696")
+		)
+		(pin "2"
+			(uuid "692240df-e082-409c-b183-9b8dc2fd9abc")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 237.49 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d99f492-dcfe-4a75-b6fc-87bf37ac852e")
+		(property "Reference" "J11"
+			(at 240.03 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 240.03 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb0baf51-72d6-46b5-acbd-6d2a05a72b95")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:R")
+		(at 153.67 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a3af9c7-797f-432c-a541-259d4cfa4fb6")
+		(property "Reference" "R3"
+			(at 153.67 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 153.67 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "djStandard:R_0603_1608Metric"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Resistor - 2-Pin"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c63fa6bc-724d-4e3d-9a0e-e5f009a97ab5")
+		)
+		(pin "2"
+			(uuid "c693a3ca-88a1-45fc-aa27-29eff8628665")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:STM-IIS3DWBG1TR")
+		(at 128.27 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a5c58ab-0f10-49d1-a9c3-66fe5a588108")
+		(property "Reference" "IC1"
+			(at 128.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IIS3DWBTR"
+			(at 173.482 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:STM-IIS3DWBG1TR"
+			(at 173.482 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/iis3dwb.pdf"
+			(at 160.02 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultrawide bandwidth, low-noise, 3-axis digital vibration sensor"
+			(at 173.482 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.86"
+			(at 160.02 463.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-IIS3DWBTR"
+			(at 160.02 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/IIS3DWBTR?qs=%252B6g0mu59x7IIEe51lWewNQ%3D%3D"
+			(at 160.02 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 160.02 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IIS3DWBTR"
+			(at 160.02 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7aa76268-4919-421e-91ea-aed7635b0cba")
+		)
+		(pin "8"
+			(uuid "3d4b7e3f-17e0-44a3-98c2-ce7177b2e3f0")
+		)
+		(pin "1"
+			(uuid "e7c69c01-61d9-41dd-8af1-6e49d0d28bac")
+		)
+		(pin "12"
+			(uuid "ab834dc1-05d4-4ccf-8636-2c3f88b15772")
+		)
+		(pin "4"
+			(uuid "19fa3225-e100-4361-87c8-2cd97ff59778")
+		)
+		(pin "13"
+			(uuid "3e4476ad-9b6d-452d-ae60-63a06a7957f1")
+		)
+		(pin "5"
+			(uuid "f86e61ed-378d-437c-9fc7-8cb0406ca625")
+		)
+		(pin "2"
+			(uuid "0e77e78c-204d-4883-affb-b48e308e8e53")
+		)
+		(pin "9"
+			(uuid "2d38a3a8-59ee-4b6b-979c-7afd7ef3c690")
+		)
+		(pin "14"
+			(uuid "f8936e3c-f06c-4e7c-9197-7307251d43ed")
+		)
+		(pin "11"
+			(uuid "d82d906e-5059-46d3-a196-0f88bb74a58d")
+		)
+		(pin "10"
+			(uuid "65abf293-0f75-4b4e-a8c3-c30fcc1c5077")
+		)
+		(pin "6"
+			(uuid "cbeb17a6-486c-4d41-949c-104268c572d8")
+		)
+		(pin "3"
+			(uuid "b90a94ed-be99-4481-9f88-cacf34b03c00")
+		)
+		(instances
+			(project ""
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 237.49 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d618844-1b04-477b-8377-b10a68ad4310")
+		(property "Reference" "J7"
+			(at 240.03 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 240.03 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5202973e-96a2-4fd4-b6e9-7d33e1d715bf")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:R")
+		(at 153.67 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95a4cbd6-c9ac-42d6-a5f9-04d748b04bc5")
+		(property "Reference" "R4"
+			(at 156.972 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 149.86 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "djStandard:R_0603_1608Metric"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Resistor - 2-Pin"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7735c040-8469-49c6-9c2b-e05a12a61774")
+		)
+		(pin "2"
+			(uuid "df5f2e31-36e0-41e0-814f-6a5b5a083bd2")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:+3V3")
+		(at 119.38 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a82187a-8d79-4fa1-9253-60e698531740")
+		(property "Reference" "#PWR05"
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 119.38 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92c9b10c-7346-4bde-9d26-0df64f263345")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:+3V3")
+		(at 189.23 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a62987fe-d450-4276-8a66-c04100a42d16")
+		(property "Reference" "#PWR011"
+			(at 189.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.23 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
+			(at 189.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70973c13-2fc8-42e4-bc4e-1f491db71344")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:+3V3")
+		(at 107.95 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac9177ff-52c0-4625-ac9b-59bb3f355be8")
+		(property "Reference" "#PWR03"
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 107.95 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "485e08cf-f574-4775-8856-1182112dc709")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 127 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adee8982-edc4-4cea-b144-f416b0f571e9")
+		(property "Reference" "#PWR02"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9c96ad0-dfbd-4319-a3ce-b72ff5c05abd")
+		)
+		(instances
+			(project ""
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 237.49 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4aaf9b0-d651-466d-a3e6-a6379bc0f918")
+		(property "Reference" "J14"
+			(at 240.03 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 240.03 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "634d2395-84ab-4df6-b7bb-e8599d70aa27")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:+3V3")
+		(at 78.74 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6d55edd-5565-4acf-872f-c6975c832916")
+		(property "Reference" "#PWR019"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 78.74 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "756e2104-b655-4a37-b31e-338752f10b6a")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 39.37 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8c77400-7306-4c20-b40d-9d46f616c043")
+		(property "Reference" "#PWR024"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7397739-1a42-4a4e-b3bc-98d4dd47e2f6")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:+3V3")
+		(at 107.95 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1e020ec-403e-4ec9-ace1-47962b53988d")
+		(property "Reference" "#PWR01"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 107.95 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
+			(at 107.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a217d84-26b4-4f2a-b7e4-5e4a77e72a7b")
+		)
+		(instances
+			(project ""
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:R")
+		(at 153.67 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de962efe-e1b8-44d6-a854-a8416587badf")
+		(property "Reference" "R5"
+			(at 156.972 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 149.86 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "djStandard:R_0603_1608Metric"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Resistor - 2-Pin"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3f307e-aa79-4d30-9709-ab9787f2cde3")
+		)
+		(pin "2"
+			(uuid "60965a3c-8529-4449-9230-d76ea9940cdf")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 237.49 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e404e339-5942-4183-9d00-b110f72c1696")
+		(property "Reference" "J8"
+			(at 240.03 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 240.03 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01"
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79ad3ef8-dd31-42ef-9622-be17f68206a8")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 237.49 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8ff46aa-fd7f-499a-b6df-7df122d3d3b1")
+		(property "Reference" "J12"
+			(at 240.03 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 240.03 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05053fe6-6eee-4f35-9c6a-3730f3a98b0c")
+		)
+		(instances
+			(project "hermetica-esc-monitor-accelerometer"
+				(path "/c652db9d-b8ad-424e-9fa3-f3031569e37e"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
