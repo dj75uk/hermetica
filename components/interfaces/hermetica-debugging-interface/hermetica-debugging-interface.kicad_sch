@@ -2183,10 +2183,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "15382a00-18c9-4e4a-8109-3311c089734a")
 		(property "Reference" "SW1"
-			(at 95.25 71.12 0)
+			(at 95.25 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,10 +3341,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f70ae4f6-3dd6-4904-b977-20dede5d9cd0")
 		(property "Reference" "SW2"
-			(at 95.25 85.09 0)
+			(at 95.25 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
