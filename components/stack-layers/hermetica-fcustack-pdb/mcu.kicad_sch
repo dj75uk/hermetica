@@ -1037,7 +1037,7 @@
 				(pin power_out line
 					(at -13.97 -20.32 0)
 					(length 3.81)
-					(name "GND"
+					(name "nSERVICEPORT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3366,6 +3366,12 @@
 		(uuid "5e1993a7-f56f-4a19-9611-01ac4b79b48d")
 	)
 	(junction
+		(at 52.07 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72bf01a4-5b2c-4f51-9db9-241c0a89597b")
+	)
+	(junction
 		(at 177.8 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3384,6 +3390,12 @@
 		(uuid "877b03cc-8f8b-4da7-905b-df3bc2f1e76e")
 	)
 	(junction
+		(at 52.07 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b294e855-6085-441e-8cb3-c4510291dba1")
+	)
+	(junction
 		(at 137.16 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3394,6 +3406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4fca58e-6582-41f1-aa4d-beaee7fd780f")
+	)
+	(junction
+		(at 52.07 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4a4877f-1f0f-4e32-a1cb-4b4ba5695173")
 	)
 	(junction
 		(at 193.04 34.29)
@@ -3621,6 +3639,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 124.46) (xy 52.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31112b40-b580-4e59-8ff0-74a4d2cdf8d8")
+	)
+	(wire
+		(pts
 			(xy 180.34 50.8) (xy 182.88 50.8)
 		)
 		(stroke
@@ -3631,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 121.92) (xy 41.91 129.54)
+			(xy 52.07 121.92) (xy 52.07 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3731,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 119.38) (xy 35.56 119.38)
+			(xy 39.37 116.84) (xy 52.07 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 114.3) (xy 35.56 114.3)
+			(xy 39.37 111.76) (xy 52.07 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3851,13 +3879,23 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 116.84) (xy 35.56 116.84)
+			(xy 39.37 114.3) (xy 52.07 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c180e04-ec4d-4077-8cf7-25a42db5cb66")
+	)
+	(wire
+		(pts
+			(xy 52.07 127) (xy 52.07 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805af1a9-0f35-42c7-b1de-345e5d94a931")
 	)
 	(wire
 		(pts
@@ -3938,6 +3976,16 @@
 			(type default)
 		)
 		(uuid "89990d82-b7cd-427c-ab69-12a69e0112de")
+	)
+	(wire
+		(pts
+			(xy 52.07 119.38) (xy 52.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a50bf42-cb56-49f1-a79d-08cf6dbf95cc")
 	)
 	(wire
 		(pts
@@ -4061,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 109.22) (xy 35.56 109.22)
+			(xy 39.37 106.68) (xy 52.07 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4091,7 +4139,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 111.76) (xy 35.56 111.76)
+			(xy 39.37 109.22) (xy 52.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4191,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 104.14) (xy 35.56 104.14)
+			(xy 39.37 101.6) (xy 52.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4261,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 106.68) (xy 35.56 106.68)
+			(xy 39.37 104.14) (xy 52.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4320,7 +4368,7 @@
 		(uuid "19c19e8c-e5b7-4986-9dd1-27b6ee3418d2")
 	)
 	(label "SWCLK"
-		(at 22.86 106.68 0)
+		(at 39.37 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4400,7 +4448,7 @@
 		(uuid "5c8c4275-e746-416d-acd6-ae19ba8da4f1")
 	)
 	(label "USART3_RX"
-		(at 22.86 119.38 0)
+		(at 39.37 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4460,7 +4508,7 @@
 		(uuid "809983f1-81c6-4390-a863-4354401a1b2c")
 	)
 	(label "SWDIO"
-		(at 22.86 104.14 0)
+		(at 39.37 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4530,7 +4578,7 @@
 		(uuid "9b1faded-a8db-401e-841a-7dcf1b7d0e93")
 	)
 	(label "RESET"
-		(at 22.86 114.3 0)
+		(at 39.37 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4540,7 +4588,7 @@
 		(uuid "a16c4f4d-3db4-4292-a6e3-19b32a789ba3")
 	)
 	(label "BOOT0"
-		(at 22.86 111.76 0)
+		(at 39.37 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4570,7 +4618,7 @@
 		(uuid "d70398fb-ff24-4832-b341-1196569ebe30")
 	)
 	(label "SWO"
-		(at 22.86 109.22 0)
+		(at 39.37 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4620,7 +4668,7 @@
 		(uuid "f3cf42f4-4485-464e-b903-a3cfb477e09b")
 	)
 	(label "USART3_TX"
-		(at 22.86 116.84 0)
+		(at 39.37 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4773,7 +4821,7 @@
 	)
 	(symbol
 		(lib_id "DJ:+3V3")
-		(at 41.91 101.6 0)
+		(at 52.07 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4782,7 +4830,7 @@
 		(fields_autoplaced yes)
 		(uuid "050e6b03-b32f-4b2a-b34b-fc108e1c98fb")
 		(property "Reference" "#PWR038"
-			(at 41.91 105.41 0)
+			(at 52.07 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4839,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 41.91 98.044 0)
+			(at 52.07 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +4848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 101.6 0)
+			(at 52.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +4857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 101.6 0)
+			(at 52.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +4866,7 @@
 			)
 		)
 		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
-			(at 41.91 101.6 0)
+			(at 52.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5690,7 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 41.91 129.54 0)
+		(at 52.07 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5651,7 +5699,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d4ccbf3-30d8-4a0d-94ec-b23fdf9b7887")
 		(property "Reference" "#PWR041"
-			(at 41.91 135.89 0)
+			(at 52.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +5708,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 133.35 0)
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 129.54 0)
+			(at 52.07 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +5726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 129.54 0)
+			(at 52.07 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 129.54 0)
+			(at 52.07 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,109 +6918,6 @@
 			(project "hermetica-fcustack-pdb"
 				(path "/5d8326d9-7250-4cff-bfdd-e7d4c45b57a3/59a7b51e-c161-44ef-b032-7259be2f4b67"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:JANOS-STACK-DEBUG-V1")
-		(at -19.05 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bda024a5-c492-412a-9770-75f91224d256")
-		(property "Reference" "J3"
-			(at -7.62 99.1869 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JANOS-STACK-DEBUG-V1"
-			(at 12.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:SAMTEC-T1M-10-F-SH-L"
-			(at 12.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 12.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "JANOS-STACK-DEBUG-V1"
-			(at 26.67 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6fc4d213-812a-42e7-9afb-6f8e45bf8f74")
-		)
-		(pin "S2"
-			(uuid "13a5cdcb-b484-4b13-b45d-66404bfd970e")
-		)
-		(pin "9"
-			(uuid "33ca78ab-bead-48de-9d56-2004618cedaa")
-		)
-		(pin "6"
-			(uuid "bfef1f8a-31e4-4e4a-a8a2-6894a1f34511")
-		)
-		(pin "1"
-			(uuid "1c78d4b8-f98b-44fb-a832-75264c4ef3cc")
-		)
-		(pin "10"
-			(uuid "859fcb61-cac4-454d-ab5f-0db676425c3d")
-		)
-		(pin "5"
-			(uuid "f5a42ce6-52fd-4c7f-8a8a-c6518ea66a92")
-		)
-		(pin "8"
-			(uuid "255fe1ea-0fb8-49d5-a809-99df311a1fe8")
-		)
-		(pin "3"
-			(uuid "29b28836-512a-4625-b2cc-dfde918a096b")
-		)
-		(pin "S1"
-			(uuid "7ecf3bcc-0d8e-41e6-8957-3c121b584fb7")
-		)
-		(pin "2"
-			(uuid "7dc38565-68f3-4478-bb50-b22c6ecdf854")
-		)
-		(pin "7"
-			(uuid "db08e019-2e93-4766-ab0a-f7dd9bb5aa4a")
-		)
-		(instances
-			(project ""
-				(path "/5d8326d9-7250-4cff-bfdd-e7d4c45b57a3/59a7b51e-c161-44ef-b032-7259be2f4b67"
-					(reference "J3")
 					(unit 1)
 				)
 			)

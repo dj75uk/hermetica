@@ -3931,7 +3931,7 @@
 		)
 	)
 	(sheet
-		(at 219.964 148.59)
+		(at 219.964 149.86)
 		(size 24.384 10.668)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3947,7 +3947,7 @@
 		)
 		(uuid "84384ee7-fac7-4170-b380-67c1592bf4d1")
 		(property "Sheetname" "stack-power"
-			(at 219.964 147.8784 0)
+			(at 219.964 149.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +3956,7 @@
 			)
 		)
 		(property "Sheetfile" "stack-power.kicad_sch"
-			(at 219.964 159.8426 0)
+			(at 219.964 161.1126 0)
 			(effects
 				(font
 					(size 1.27 1.27)

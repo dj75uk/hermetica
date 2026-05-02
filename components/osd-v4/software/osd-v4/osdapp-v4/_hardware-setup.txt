@@ -1,0 +1,27 @@
+
+
+
+OSD v4
+
+Hardware Configuration
+
+ATMEGA2560
+
+PA7		GPIO		INJECT
+PD0		INT0		LM1881-VSYNC
+PD4		ICP1		LM1881-HSYNC
+PH0		RX2			ISO7321-TX
+PH1		TX2			ISO7321-RX
+PJ0		RX3			VTX-SA
+PJ1		TX3			VTX-SA
+PK0		GPIO		LED1
+PK1		GPIO		LED2
+PK2		GPIO		LED3
+
+
+Don't forget to set two fuses:
+LOW.CKDIV8		(unticked)
+LOW.SUT_CKSEL	Bottom option, long startup, external oscillator with 8MHz+
+
+All other fuses can be left as default
+

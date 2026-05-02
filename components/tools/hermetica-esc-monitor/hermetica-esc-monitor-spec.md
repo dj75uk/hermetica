@@ -179,8 +179,7 @@ ESC Temperature
 Ambiant temperature (for calculating esc/motor temp rise)
 Vibration
 
-RPM derived from timestamped pulse intervals,
-resampled into the 200Hz dataset.
+RPM derived from timestamped pulse intervals, resampled into the 200Hz dataset.
 
 Temperature measurement is slow and approximate. The delta (rise) is more important than the absolute value.
 
@@ -195,6 +194,11 @@ Writing handled by M4 core. Data streamed to local microSD-card, with dual circu
 
 ## Safety Limits
 Only enforced in bench mode, Monitoring Mode just allows the board or device to fail. This is a design decison.
+
+Mitigating factors:
+- It is assumed the ESC and motor will be bench-tested before flight
+- It is assumed the airframe will be flown within normal operational limits
+- It is assumed the airframe will not be cause the limits determined by bench testing to be exceeded
 
 ### System design limits
 - Global limits per board:
@@ -320,8 +324,14 @@ Fault injection to be last stage before signal sent to ESC.
 - SDCard hardware considerations (I've never designed a board with one before - learning curve).
   - Use SDMMC peripheral not SPI
   - What pullups/pulldowns on which pins?
-  - Decoupling caps?
-  - How to handle card-detect?
-- Baseline thrust curve on bench.
+  - Decoupling caps? - 10uF and 100nF close to card supply.
+  - How to handle card-detect? Pull up or pull down?
+  - 22R series resistors close to MCU pins on all data and clock lines
+
+## 
+
 - Should fit a standard "Hermetica-class" CAN-FD chain to the PCB, due to T-Motor's interest in CAN. No need to write any firmware. Hardware can just sit there doing nothing in case it's needed in future. Very small price to pay for future proofing.
-- FUTURE: Consider ways to use baseline thrust-curve in the air if FCU connected via CAN.
+
+## Future considerations
+
+- Consider ways to use baseline thrust-curve in the air if FCU connected via CAN.

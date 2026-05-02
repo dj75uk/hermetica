@@ -1,0 +1,36 @@
+### Footprint positions - created on Mon May 15 11:19:32 2023 ###
+### Printed by KiCad version 7.0.2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                           Package                               PosX       PosY       Rot  Side
+C1        100nF                         C_0603_1608Metric                  11.8618    36.3220   90.0000  top
+C2        100nF                         C_0603_1608Metric                  20.6248    22.2758    0.0000  top
+C3        100nF                         C_0603_1608Metric                  30.9118    28.1178   90.0000  top
+C4        100nF                         C_0603_1608Metric                  22.0218    41.3258  180.0000  top
+C5        100nF                         C_0603_1608Metric                  30.9118    37.0078  -90.0000  top
+C6        22pF                          C_0402_1005Metric                   6.5278    32.1818   90.0000  top
+C7        22pF                          C_0402_1005Metric                   6.5278    35.9918  -90.0000  top
+C8        100nF                         C_0402_1005Metric                  20.1168     5.0800    0.0000  top
+C9        100nF                         C_0603_1608Metric                  10.8458     4.5850   90.0000  top
+C10       100nF                         C_0402_1005Metric                  10.6680     7.6200  180.0000  top
+C11       100nF                         C_0603_1608Metric                  24.3840    44.0690   90.0000  top
+C12       100nF                         C_0603_1608Metric                  24.3840    48.3870  -90.0000  top
+D1        DIODESINC-1N4148WT-SOD523     DIODESINC-SOD523                   25.3868    21.8440   90.0000  top
+IC1       TI-LM1881                     TI-LM1881                          15.3848     5.7150  180.0000  top
+IC2       TI-ISO7321FC                  SOIC-8_3.9x4.9mm_P1.27mm           27.9400    46.2280   90.0000  top
+J2        SAMTEC-SMA-J-P-H-ST-EM1       SAMTEC-SMA-J-P-X-RA-TH1            25.4000     5.0800   90.0000  top
+J3        CONNECTOR-DEBUG-SPECIFIC-AVR  PinHeader_2x03_P2.54mm_Vertical    15.3820    55.1130   90.0000  top
+LED2      KINGBRIGHT-LED-0402-RED       KINGBRIGHT-LED-APHHS1005-0402      36.1950    37.4650  -90.0000  top
+LED4      KINGBRIGHT-LED-0402-GREEN     KINGBRIGHT-LED-APHHS1005-0402      36.1950    32.3850  -90.0000  top
+LED5      KINGBRIGHT-LED-0402-GREEN     KINGBRIGHT-LED-APHHS1005-0402      36.1950    27.3050  -90.0000  top
+MCU1      MICROCHIP-ATMEGA2560-16AU     TQFP-100_14x14mm_P0.5mm            21.3868    31.8008  -90.0000  top
+R1        10K                           R_0603_1608Metric                  12.7000    56.3880  -90.0000  top
+R2        330R                          R_0402_1005Metric                  25.3868    19.6596   90.0000  top
+R3        680K                          R_0402_1005Metric                  10.6680     6.6040  180.0000  top
+R4        10K                           R_0603_1608Metric                  30.9118    24.9682  -90.0000  top
+R5        145R                          R_0402_1005Metric                  33.6550    33.7810    0.0000  top
+R7        145R                          R_0402_1005Metric                  33.6550    31.7510    0.0000  top
+R8        145R                          R_0402_1005Metric                  33.6550    29.8450    0.0000  top
+RV1       100K                          PVG3A104C01R00                      6.4770     5.4610   90.0000  top
+Y1        ABRACON-ABM3-16.000MHZ-D2Y-T  ABRACON-ABM3                        9.0678    34.0868  -90.0000  top
+## End

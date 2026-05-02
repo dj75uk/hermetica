@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.3,
-          "width": 0.45
+          "height": 1.5,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -488,42 +488,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "name": "PWR_HEAVY",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "clearance": 0.2,
-        "name": "PWR_LIGHT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.5,
-        "name": "PWR_MED",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0
-      },
-      {
-        "clearance": 0.19,
-        "diff_pair_gap": 0.19,
-        "diff_pair_width": 0.19,
-        "name": "SIG_GPIO",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.19,
-        "via_diameter": 0.6,
-        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -583,24 +547,7 @@
         "PWR_HEAVY"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "PWR_MED",
-        "pattern": "PRIMARY_POWER"
-      },
-      {
-        "netclass": "PWR_MED",
-        "pattern": "5V_CAN"
-      },
-      {
-        "netclass": "PWR_MED",
-        "pattern": "+5V0"
-      },
-      {
-        "netclass": "PWR_LIGHT",
-        "pattern": "/stack-power/VCC"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
