@@ -1,0 +1,7 @@
+Plugin v0.0.1 running on KiCad 9.0.5 and Python 3.11.5 (main, Sep 17 2025, 01:04:48) [MSC v.1944 64 bit (AMD64)] on win32.
+Config file C:\Users\dj75\OneDrive\Janus\Hermetica\hermetica\components\wip\hermetica-stm32h755-prototyping\hermetica-stm32h755-prototyping.kicad_pcb.hierpcb.json not found. Creating new one.
+
+├─ /power/
+├─ /leds/
+├─ /mcu/
+Saved.

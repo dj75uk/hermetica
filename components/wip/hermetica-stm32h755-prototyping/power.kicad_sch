@@ -700,329 +700,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DJ:GCT-USB3075-30-A"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GCT-USB3075-30-A"
-				(at 44.45 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "djStandard:GCT-USB3075-30-A"
-				(at 44.45 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/USB3075-30-A.pdf"
-				(at 44.45 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "GCT (GLOBAL CONNECTOR TECHNOLOGY) - USB3075-30-A - USB Connector, Micro USB Type B, USB 2.0, Receptacle, 5 Ways, Surface Mount, Right Angle"
-				(at 44.45 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "2.7"
-				(at 44.45 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "640-USB3075-30-A"
-				(at 44.45 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB3075-30-A?qs=KUoIvG%2F9IlbGMJplbp1ybA%3D%3D"
-				(at 44.45 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-				(at 44.45 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "USB3075-30-A"
-				(at 44.45 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "GCT-USB3075-30-A_0_0"
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -7.62 180)
-					(length 5.08)
-					(name "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -10.16 180)
-					(length 5.08)
-					(name "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -12.7 180)
-					(length 5.08)
-					(name "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "GCT-USB3075-30-A_1_0"
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "ID"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "GCT-USB3075-30-A_1_1"
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy 7.62 2.54) (xy 7.62 -15.24) (xy -7.62 -15.24) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DJ:GND"
 			(power)
 			(pin_names
@@ -1122,325 +799,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DJ:KINGBRIGHT-LED-0402-GREEN"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "KINGBRIGHT-LED-0402-GREEN"
-				(at 15.24 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "djStandard:KINGBRIGHT-LED-APHHS1005-0402"
-				(at 15.24 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/216/APHHS1005CGCK-38896.pdf"
-				(at 15.24 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED KINGBRIGHT APHHS1005 0402 GREEN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "KINGBRIGHT-LED-0402-GREEN_0_0"
-				(text "F"
-					(at -0.889 -2.921 0)
-					(effects
-						(font
-							(size 0.3048 0.3048)
-						)
-					)
-				)
-				(text "Green"
-					(at 0 -1.651 0)
-					(effects
-						(font
-							(size 0.6096 0.6096)
-						)
-					)
-				)
-				(text "V =2.1"
-					(at 0 -2.54 0)
-					(effects
-						(font
-							(size 0.6096 0.6096)
-						)
-					)
-				)
-			)
-			(symbol "KINGBRIGHT-LED-0402-GREEN_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KINGBRIGHT-LED-0402-GREEN_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DJ:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "djStandard:R_0402_1005Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic - Resistor - 2-Pin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2213,6 +1571,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AP2112K-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2112K-3.3"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2112K-3.3_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2112K-3.3_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LD1117S50TR_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2352,58 +1888,52 @@
 		)
 	)
 	(junction
+		(at 87.63 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0778dc70-c174-4a9a-856b-783bda968367")
+	)
+	(junction
 		(at 97.79 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "183dd428-9643-47b3-b760-48c3b9fa81cf")
 	)
 	(junction
-		(at 173.99 43.18)
+		(at 67.31 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "24485e30-1547-4c5d-9e5a-376f61bbb770")
+		(uuid "46aae8fc-b41c-4cd3-b29d-0bd3a89d8787")
 	)
 	(junction
-		(at 73.66 66.04)
+		(at 45.72 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c0cd812-ee40-4a9b-92ce-151d2cc24a98")
+		(uuid "5c9654c4-7b41-4f45-bcad-2356539a613f")
 	)
 	(junction
-		(at 106.68 66.04)
+		(at 120.65 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "65f0b6c8-2649-4009-ab15-006e6286ee52")
+		(uuid "7048ec71-020b-4fec-98f5-52a053853076")
 	)
 	(junction
-		(at 19.05 68.58)
+		(at 157.48 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78693712-d54c-475d-bec5-c0d96327cbf7")
+		(uuid "9c95011c-dfc3-46a5-b6b5-f5ba228b4a56")
 	)
 	(junction
-		(at 19.05 78.74)
+		(at 153.67 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d539c34-9888-4c00-98e8-0820e8ba6194")
+		(uuid "a325b88f-c84a-4ca9-9533-4a2fee2811a4")
 	)
 	(junction
-		(at 62.23 66.04)
+		(at 52.07 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9171f9c4-17f3-452d-8f0f-52ef4ffa9d75")
-	)
-	(junction
-		(at 19.05 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "965edfaa-6350-4d2c-8843-d64f87dff8b0")
-	)
-	(junction
-		(at 19.05 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a83d04ad-59ef-4086-b165-4e12fa0aab55")
+		(uuid "a5307a9d-d2de-4d3e-bbfe-1af3be1b29d5")
 	)
 	(junction
 		(at 123.19 20.32)
@@ -2411,29 +1941,25 @@
 		(color 0 0 0 0)
 		(uuid "d7f38e27-2f30-45b8-9f59-d8e7aab414e4")
 	)
-	(junction
-		(at 19.05 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dee5c08d-81d3-4322-8bfa-fdd883b1dacb")
+	(wire
+		(pts
+			(xy 87.63 120.65) (xy 96.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bfc59b-8016-4ba5-956e-b6f6bd140c6d")
 	)
-	(junction
-		(at 119.38 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb2434bb-14f9-4ed1-b7b3-0ee56d33a958")
-	)
-	(no_connect
-		(at 44.45 73.66)
-		(uuid "02071fd0-e816-48a3-aa0d-5f55e83d327e")
-	)
-	(no_connect
-		(at 44.45 71.12)
-		(uuid "29b00ed5-886c-42a7-915f-6b3febea8ddf")
-	)
-	(no_connect
-		(at 44.45 68.58)
-		(uuid "65a26a1e-2198-414b-867b-6186be672715")
+	(wire
+		(pts
+			(xy 132.08 125.73) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032a7921-28f0-49a7-9b33-2a6c2080dca0")
 	)
 	(wire
 		(pts
@@ -2447,23 +1973,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 66.04) (xy 62.23 71.12)
+			(xy 132.08 125.73) (xy 133.35 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0882d5f4-ca88-44fd-94b6-1eced91c7d88")
-	)
-	(wire
-		(pts
-			(xy 106.68 66.04) (xy 106.68 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b6cba92-9f8b-4ab2-9b7b-63cf6f947eb8")
+		(uuid "09aafdfc-1f81-495c-9186-1b29f8496bac")
 	)
 	(wire
 		(pts
@@ -2474,16 +1990,6 @@
 			(type default)
 		)
 		(uuid "0c69128f-f8e9-4b9d-bc81-216dc386e34e")
-	)
-	(wire
-		(pts
-			(xy 81.28 76.2) (xy 81.28 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1e7f7c-2a52-4734-8427-e5f812b1d93d")
 	)
 	(wire
 		(pts
@@ -2507,33 +2013,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 73.66 68.58)
+			(xy 95.25 130.81) (xy 95.25 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10a3d9c3-1ce4-47a7-afa9-f11deb1b16b1")
+		(uuid "15557b2c-a21a-496e-8c2a-8932382f04ca")
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 82.55 71.12)
+			(xy 87.63 128.27) (xy 87.63 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "154fbb04-a588-45e4-a21c-c27a5d6d3cb5")
+		(uuid "1b2e70f5-b755-4b5c-8f3f-b69f1022c8ee")
 	)
 	(wire
 		(pts
-			(xy 19.05 68.58) (xy 19.05 71.12)
+			(xy 67.31 158.75) (xy 67.31 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "190e6b3b-e981-45db-8b29-98375c09de5f")
+		(uuid "282e02d6-ed07-4e9f-a39f-9d3e05137f15")
 	)
 	(wire
 		(pts
@@ -2547,53 +2053,33 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 78.74) (xy 19.05 81.28)
+			(xy 52.07 153.67) (xy 45.72 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3004a44c-b889-4b20-a501-62695dc7554d")
+		(uuid "2a95954a-9d9e-4712-afe4-41366105fe78")
 	)
 	(wire
 		(pts
-			(xy 33.02 20.32) (xy 83.82 20.32)
+			(xy 33.02 20.32) (xy 63.5 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3427bf11-28d6-4fab-bf4d-f3262653a0f7")
+		(uuid "2b47b253-600e-416b-af7e-17fdaa8b0785")
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 119.38 66.04)
+			(xy 67.31 153.67) (xy 77.47 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38271245-ff53-4cda-8a95-ce099b7626d4")
-	)
-	(wire
-		(pts
-			(xy 19.05 73.66) (xy 19.05 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "417074ed-eb04-4065-96f2-b7afca123357")
-	)
-	(wire
-		(pts
-			(xy 198.12 48.26) (xy 199.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "489bf206-cc8f-4515-82bf-526bbea1d455")
+		(uuid "381e0173-4101-4759-9c08-bc55236c0776")
 	)
 	(wire
 		(pts
@@ -2607,33 +2093,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 43.18) (xy 173.99 45.72)
+			(xy 149.86 125.73) (xy 149.86 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56798703-ad29-4dd2-8d51-a55544169ba0")
+		(uuid "5f88cf2a-a833-484f-846d-3acc2ded165f")
 	)
 	(wire
 		(pts
-			(xy 19.05 76.2) (xy 19.05 78.74)
+			(xy 120.65 120.65) (xy 120.65 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56e5f418-7eb3-400a-8e03-63989fa53efc")
-	)
-	(wire
-		(pts
-			(xy 173.99 43.18) (xy 182.88 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cdd99e7-4063-4636-9d5e-0188d81c77a3")
+		(uuid "5fc1477a-85e7-4c9b-b0c5-0ed55715a6b1")
 	)
 	(wire
 		(pts
@@ -2667,16 +2143,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 71.12) (xy 99.06 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67345f84-b5cf-420c-9e1b-49203d8a3fb0")
-	)
-	(wire
-		(pts
 			(xy 119.38 20.32) (xy 123.19 20.32)
 		)
 		(stroke
@@ -2687,33 +2153,43 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 66.04) (xy 19.05 68.58)
+			(xy 52.07 153.67) (xy 52.07 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7361c65f-3d4d-430a-ae0e-ad39c0d0962b")
+		(uuid "6e298b86-0cb2-45f5-b2ed-a79eaf3b1b85")
 	)
 	(wire
 		(pts
-			(xy 200.66 40.64) (xy 200.66 43.18)
+			(xy 41.91 153.67) (xy 45.72 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7967d7b0-545c-49ed-a6e8-5aa52f4d5b37")
+		(uuid "80ef68b4-8e5b-4b62-8e45-049b57e4c23f")
 	)
 	(wire
 		(pts
-			(xy 173.99 50.8) (xy 173.99 53.34)
+			(xy 111.76 125.73) (xy 113.03 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f12246e-0199-46c2-b36c-2e3a9106210a")
+		(uuid "81ef463e-c805-4209-bad1-6d6202c2b2c7")
+	)
+	(wire
+		(pts
+			(xy 153.67 137.16) (xy 153.67 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8520e8df-e529-45da-9160-0764764b0fb6")
 	)
 	(wire
 		(pts
@@ -2727,13 +2203,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 66.04) (xy 62.23 66.04)
+			(xy 148.59 120.65) (xy 153.67 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dcf8c07-a579-4404-b4dd-6bc10cfd9f53")
+		(uuid "8d7984bf-3609-422b-813f-e5983d4c2b10")
+	)
+	(wire
+		(pts
+			(xy 120.65 120.65) (xy 133.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9588d4f3-c253-4a9b-99ea-e4f21c579196")
 	)
 	(wire
 		(pts
@@ -2757,13 +2243,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 48.26) (xy 182.88 48.26)
+			(xy 111.76 120.65) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b24bf70-601c-4184-be6a-8bc0ca090f13")
+		(uuid "96ab972d-7087-40e2-a946-4176d8692b2a")
 	)
 	(wire
 		(pts
@@ -2777,36 +2263,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 71.12) (xy 99.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e7dc8aa-6df0-471e-91c8-1034f28af3e9")
-	)
-	(wire
-		(pts
-			(xy 119.38 66.04) (xy 123.19 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a144b9f3-b9f1-4386-a1cb-72f988a18587")
-	)
-	(wire
-		(pts
-			(xy 62.23 66.04) (xy 73.66 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5326933-0377-402d-aea0-6233bd77903e")
-	)
-	(wire
-		(pts
 			(xy 63.5 30.48) (xy 64.77 30.48)
 		)
 		(stroke
@@ -2817,23 +2273,33 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 106.68 76.2)
+			(xy 157.48 120.65) (xy 157.48 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4d293a0-f885-4fd5-bddd-96fab500f0ac")
+		(uuid "aa35f441-5548-4d54-9182-38a81e5716d5")
 	)
 	(wire
 		(pts
-			(xy 73.66 73.66) (xy 73.66 76.2)
+			(xy 87.63 120.65) (xy 87.63 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf92efbc-1672-491d-8cd2-3669192a203a")
+		(uuid "abe03385-856a-408c-967d-37c103a95f25")
+	)
+	(wire
+		(pts
+			(xy 157.48 120.65) (xy 161.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e84d0d-4108-4f91-a8b1-001cb6880fb7")
 	)
 	(wire
 		(pts
@@ -2847,16 +2313,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 66.04) (xy 134.62 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44b4233-3e0f-4fe4-86d2-6340bc38abab")
-	)
-	(wire
-		(pts
 			(xy 97.79 26.67) (xy 97.79 27.94)
 		)
 		(stroke
@@ -2867,63 +2323,93 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 97.79 66.04)
+			(xy 82.55 120.65) (xy 87.63 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9457dea-62b1-4ea7-8f1d-21302854a8ba")
+		(uuid "d9b1a7e0-c5c9-436b-9f1f-8eeb38bda57c")
 	)
 	(wire
 		(pts
-			(xy 199.39 48.26) (xy 199.39 53.34)
+			(xy 153.67 120.65) (xy 157.48 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfa0b7a6-59b4-4dae-a992-42f736dc893c")
+		(uuid "e232998e-5e30-4c6f-801f-6ad07bac7acd")
 	)
 	(wire
 		(pts
-			(xy 171.45 43.18) (xy 173.99 43.18)
+			(xy 132.08 137.16) (xy 153.67 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed27acd3-8ca0-4d10-b5dc-f74e414bf93b")
+		(uuid "e28c96f0-9af0-4ee9-b1b7-42b3704b245b")
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 82.55 66.04)
+			(xy 113.03 125.73) (xy 113.03 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f279ca0e-ae4b-4701-8c71-cf4d77c0b3fd")
+		(uuid "e778a31b-ed54-4e4e-a713-2f32a5dd8f54")
 	)
 	(wire
 		(pts
-			(xy 198.12 43.18) (xy 200.66 43.18)
+			(xy 95.25 125.73) (xy 96.52 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4119195-a39c-431b-8722-aaa48f86b1c0")
+		(uuid "ec27e5a9-bb89-4f11-9e39-6c424f93b83b")
 	)
 	(wire
 		(pts
-			(xy 181.61 53.34) (xy 181.61 48.26)
+			(xy 120.65 128.27) (xy 120.65 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa38c1ce-9eb3-40cc-84f3-55a08584d66c")
+		(uuid "ee37f917-b24a-4ef8-8e26-08689b28b284")
+	)
+	(wire
+		(pts
+			(xy 148.59 125.73) (xy 149.86 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a3fe5e-41c1-406d-9525-6d0572a5aea2")
+	)
+	(wire
+		(pts
+			(xy 73.66 20.32) (xy 83.82 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f668cdbc-966f-460b-a68d-57853fc5f9a1")
+	)
+	(wire
+		(pts
+			(xy 45.72 158.75) (xy 45.72 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8fa1e4-be3b-48bb-bfdd-4c462364c559")
 	)
 	(wire
 		(pts
@@ -2937,13 +2423,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 71.12) (xy 19.05 73.66)
+			(xy 157.48 128.27) (xy 157.48 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff2951c9-df08-4945-b9cd-9ae4b452609d")
+		(uuid "fe33c8af-87b7-447e-8304-9c3d522f2ecb")
 	)
 	(label "BEC_5V"
 		(at 53.34 44.45 180)
@@ -2964,16 +2450,6 @@
 			(justify right bottom)
 		)
 		(uuid "6bd08443-eeee-4b2f-af60-09aba6d878ce")
-	)
-	(label "VBUS"
-		(at 53.34 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e16fb09-a149-4773-b734-79c5e70cff5e")
 	)
 	(label "EXT_5V"
 		(at 250.19 19.05 0)
@@ -3038,30 +2514,8 @@
 		)
 	)
 	(global_label "5V_PREDIODE"
-		(shape output)
-		(at 134.62 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7de0d325-3e4e-4663-90f6-1b1d40211b21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.1842 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_PREDIODE"
 		(shape input)
-		(at 171.45 43.18 180)
+		(at 82.55 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3069,9 +2523,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ea3a566a-fce0-47da-836f-105920e0143b")
+		(uuid "93abfdce-f258-4f95-a906-6a599b44f8c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.8858 43.18 0)
+			(at 66.9858 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,140 +2580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DJ:+5V0")
-		(at 246.38 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01df9a7e-260f-4bac-8413-ea50a076cad0")
-		(property "Reference" "#PWR014"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V0"
-			(at 246.38 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power - Power symbol creates a global label with name \"+5V0\""
-			(at 246.38 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d913d01d-5115-4de0-96eb-3440b64c9a81")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GND")
-		(at 99.06 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "023006b7-0a18-4fe8-ba48-b4109dc8c0a1")
-		(property "Reference" "#PWR011"
-			(at 99.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45032b8d-c9a6-4ef4-9eb9-634d2d1541e8")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DJ:C")
 		(at 97.79 24.13 0)
 		(unit 1)
@@ -3269,7 +2589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04076832-dd32-4d3e-a7fa-e0db625c748f")
-		(property "Reference" "C15"
+		(property "Reference" "C31"
 			(at 100.33 22.8662 0)
 			(effects
 				(font
@@ -3322,8 +2642,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "C15")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -3331,16 +2651,16 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 81.28 76.2 0)
+		(at 157.48 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0543ff64-d63f-452e-a208-af994988a254")
-		(property "Reference" "#PWR010"
-			(at 81.28 82.55 0)
+		(uuid "0418659a-c651-479f-b605-3c2509df85db")
+		(property "Reference" "#PWR064"
+			(at 157.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +2669,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 80.01 0)
+			(at 157.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +2678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 76.2 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +2687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 76.2 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +2696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 76.2 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,12 +2705,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "212957c5-dc99-46e4-b3f5-806918f1211b")
+			(uuid "ec99f33b-82ea-4249-943b-1324581f9fec")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR010")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3398,16 +2718,16 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 246.38 148.59 0)
+		(at 95.25 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "075c9473-6a31-4113-874c-db862a4825cb")
-		(property "Reference" "#PWR021"
-			(at 246.38 154.94 0)
+		(uuid "0b553eb0-0e52-4150-afc1-cabbd9ba6462")
+		(property "Reference" "#PWR058"
+			(at 95.25 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +2736,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 152.4 0)
+			(at 95.25 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +2745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 148.59 0)
+			(at 95.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +2754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 148.59 0)
+			(at 95.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +2763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 148.59 0)
+			(at 95.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,79 +2772,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4c96db6-0fb1-4122-9017-2ebde4b67646")
+			(uuid "96dbc288-3855-4f3b-b3db-547e3fe94cef")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GND")
-		(at 181.61 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0af36889-2c74-4d61-b223-eb6b11598d2c")
-		(property "Reference" "#PWR048"
-			(at 181.61 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c163127-2de1-467a-8bed-c97f9872d298")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR048")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3588,7 +2841,7 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
 					(reference "H4")
 					(unit 1)
 				)
@@ -3653,7 +2906,7 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
 					(reference "H3")
 					(unit 1)
 				)
@@ -3670,7 +2923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14989f57-4450-4420-b399-3c1ae66aee9c")
-		(property "Reference" "C14"
+		(property "Reference" "C32"
 			(at 125.73 22.8662 0)
 			(effects
 				(font
@@ -3723,8 +2976,85 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "C14")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 59.69 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14d77935-1aeb-4b5c-b1ed-513097a1bc51")
+		(property "Reference" "U5"
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 59.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 59.69 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 59.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 59.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1e4b8783-7168-44b9-a7eb-c60625fb6ad7")
+		)
+		(pin "5"
+			(uuid "16d0640d-18bc-4001-a73f-5492206f3d11")
+		)
+		(pin "1"
+			(uuid "e81d97a0-fff5-4039-9ab6-c4229352f7d3")
+		)
+		(pin "3"
+			(uuid "1793661a-f38d-46c6-9548-8ce29be2b44e")
+		)
+		(pin "2"
+			(uuid "266bdb16-7901-4412-838d-2c16fc2bad8b")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3740,7 +3070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14ebce2a-92ba-4e59-aed1-236d60cb3582")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR051"
 			(at 39.37 55.88 0)
 			(effects
 				(font
@@ -3790,76 +3120,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GND")
-		(at 44.45 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "173e435f-2baf-4834-bd07-60038b4e156d")
-		(property "Reference" "#PWR033"
-			(at 44.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e0a93d9-5301-4d59-acb4-d4ccbdc3464a")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR033")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3874,7 +3136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c7692c8-4b58-4d04-9178-c285cd7d46ee")
-		(property "Reference" "J3"
+		(property "Reference" "J147"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -3923,8 +3185,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "J3")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "J147")
 					(unit 1)
 				)
 			)
@@ -3940,7 +3202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1db2b3c9-6c16-4534-9fe8-0272f8af54a6")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR044"
 			(at 97.79 34.29 0)
 			(effects
 				(font
@@ -3990,158 +3252,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:R")
-		(at 246.38 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23c4730e-060d-41d0-a5e4-f07b3ea22a39")
-		(property "Reference" "R3"
-			(at 248.92 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "?"
-			(at 248.92 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3b48f1f-ccbe-40ef-97e1-508651cdbe1d")
-		)
-		(pin "2"
-			(uuid "06979858-6fc6-42e4-9aca-24fb1f3c9d59")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Management:LM66100DCK")
-		(at 90.17 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "272e3720-ae88-488d-846f-1008a2ca6ead")
-		(property "Reference" "U5"
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM66100DCK"
-			(at 90.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 90.17 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
-			(at 90.17 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
-			(at 90.17 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "a32b5811-c60e-4e2e-8026-231ebff828b8")
-		)
-		(pin "1"
-			(uuid "ae73adff-603c-4853-b2ff-127790446b1b")
-		)
-		(pin "3"
-			(uuid "57a083b9-6587-4a87-8836-783727ac62bc")
-		)
-		(pin "2"
-			(uuid "76c61434-9326-485c-adc8-3a76d974cb9b")
-		)
-		(pin "4"
-			(uuid "89bb9053-3a3a-450f-b9fb-fdf40d77ad8d")
-		)
-		(pin "5"
-			(uuid "3b1dbe3d-d2aa-4fa3-b67e-bd2041ed47d0")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "U5")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4149,16 +3261,16 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 199.39 53.34 0)
+		(at 45.72 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29ac0083-f0b6-48a6-88e2-550487d196b3")
-		(property "Reference" "#PWR051"
-			(at 199.39 59.69 0)
+		(uuid "2447c58f-2922-4eb7-8e5a-80c7c057b9ec")
+		(property "Reference" "#PWR067"
+			(at 45.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +3279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 57.15 0)
+			(at 45.72 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +3288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 53.34 0)
+			(at 45.72 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +3297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 53.34 0)
+			(at 45.72 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +3306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 53.34 0)
+			(at 45.72 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,12 +3315,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7fff3bc-4811-4871-9fa6-a14ad6507e2f")
+			(uuid "b4865de7-7057-40d5-a3de-7378b41f5402")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR051")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4223,7 +3335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a3e3196-212d-415d-b0d4-1a349a932e7a")
-		(property "Reference" "JP7"
+		(property "Reference" "JP5"
 			(at 58.42 27.686 0)
 			(effects
 				(font
@@ -4275,92 +3387,25 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "JP7")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DJ:STM-ESDA7P60-1U1M")
-		(at 62.23 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d7d6811-f1ab-4190-95f1-42bac3c13669")
-		(property "Reference" "D3"
-			(at 64.77 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESDA7P60-1U1M"
-			(at 60.706 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "djStandard:STM-ESDA7P60-1U1M"
-			(at 57.785 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85790/zpy3v9.pdf"
-			(at 62.23 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diode"
-			(at 67.818 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3994dbde-6a0d-4467-8d93-a14cc1b087b7")
-		)
-		(pin "1"
-			(uuid "aae7824b-45b2-4828-bbfb-77becea22c9d")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GND")
-		(at 90.17 76.2 0)
+		(lib_id "DJ:+5V0")
+		(at 161.29 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31591c31-d5f2-4ed1-b838-08f6b7c3564d")
-		(property "Reference" "#PWR03"
-			(at 90.17 82.55 0)
+		(uuid "2ec95935-85fb-477f-a94e-65faf21ef8f0")
+		(property "Reference" "#PWR056"
+			(at 161.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,8 +3413,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.17 80.01 0)
+		(property "Value" "+5V0"
+			(at 161.29 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +3423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 76.2 0)
+			(at 161.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +3432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 76.2 0)
+			(at 161.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,8 +3440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 76.2 0)
+		(property "Description" "Power - Power symbol creates a global label with name \"+5V0\""
+			(at 161.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,12 +3450,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b056686-28cd-4b2c-bfbd-88b3823aaf3c")
+			(uuid "c04171c8-dab5-4435-9bcf-a170d3bd3d68")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR03")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4426,7 +3471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3419e0b2-1b75-40a0-aa32-f9069ecf3a74")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR048"
 			(at 257.81 34.29 0)
 			(effects
 				(font
@@ -4476,8 +3521,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR027")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4492,7 +3537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "341ffb50-41a5-40ed-9678-53cb3a32d8a4")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 260.35 23.114 90)
 			(effects
 				(font
@@ -4543,143 +3588,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 128.27 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "345e60be-5f62-471f-b80e-069f719c60fa")
-		(property "Reference" "JP5"
-			(at 128.27 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 128.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X02-MALE"
-			(at 128.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 128.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "830ecf32-5eb0-42f6-94fd-2da644670a84")
-		)
-		(pin "1"
-			(uuid "102cd277-0157-4b75-936b-6a65c76568cd")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GND")
-		(at 190.5 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c516568-a0a7-4a00-b527-a56002370daf")
-		(property "Reference" "#PWR049"
-			(at 190.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b69e80f-a77f-42c6-902a-349add08d483")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR049")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4687,16 +3597,16 @@
 	)
 	(symbol
 		(lib_id "DJ:C")
-		(at 173.99 48.26 0)
+		(at 45.72 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e575401-4a7f-4221-b283-99521be9bc90")
-		(property "Reference" "C16"
-			(at 176.53 46.9962 0)
+		(uuid "3869a3b2-b248-49f4-9fa1-a538e0411692")
+		(property "Reference" "C37"
+			(at 48.26 154.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +3615,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 176.53 49.5362 0)
+			(at 48.26 157.4862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,8 +3623,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "djStandard:C_0402_1005Metric"
-			(at 173.99 48.26 0)
+		(property "Footprint" "djStandard:C_0805_2012Metric"
+			(at 45.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +3633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 48.26 0)
+			(at 45.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +3642,7 @@
 			)
 		)
 		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
-			(at 173.99 48.26 0)
+			(at 45.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,15 +3651,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a4c1bd8-9287-49cd-9db0-c593f98f809c")
+			(uuid "fdbab366-40d7-40af-b942-006e9b5408b3")
 		)
 		(pin "2"
-			(uuid "bce62228-c1f3-4b8a-bd25-46164ba08b22")
+			(uuid "b0e89fb0-de4d-44bd-9300-740d42863953")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "C16")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -4757,16 +3667,16 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 259.08 148.59 0)
+		(at 149.86 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42d87cf0-197c-4e9f-b5ca-45c78f09be2a")
-		(property "Reference" "#PWR038"
-			(at 259.08 154.94 0)
+		(uuid "38907404-296b-48a3-ba47-98a6ad6e6992")
+		(property "Reference" "#PWR063"
+			(at 149.86 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +3685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 152.4 0)
+			(at 149.86 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +3694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 148.59 0)
+			(at 149.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +3703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 148.59 0)
+			(at 149.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +3712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 148.59 0)
+			(at 149.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,12 +3721,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "56f1343c-111f-4e90-94dd-dc7b6c8d294d")
+			(uuid "8c81ec65-09a3-4a01-a0aa-dfc3dbbe7f86")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR038")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:C")
+		(at 157.48 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464bb558-ab02-4e7c-900c-59bb02989aa7")
+		(property "Reference" "C36"
+			(at 160.02 124.4662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 160.02 127.0062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "djStandard:C_0603_1608Metric"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8733fc50-1812-49c3-94de-56f5739f013d")
+		)
+		(pin "2"
+			(uuid "29170a24-12b2-40bd-9e64-54c72356ab91")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -4880,7 +3860,7 @@
 		)
 		(instances
 			(project ""
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
 					(reference "H1")
 					(unit 1)
 				)
@@ -4896,7 +3876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e7d7cca-0c21-4ea2-9e07-f61c97064282")
-		(property "Reference" "JP1"
+		(property "Reference" "JP6"
 			(at 58.42 41.656 0)
 			(effects
 				(font
@@ -4948,8 +3928,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "JP1")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -4957,17 +3937,16 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 19.05 81.28 0)
-		(mirror y)
+		(at 140.97 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fbdb07e-ff29-4e53-b056-3e23f2e5400b")
-		(property "Reference" "#PWR044"
-			(at 19.05 87.63 0)
+		(uuid "4ec4cff2-24a9-4e5c-8ecb-ea77dae25f5b")
+		(property "Reference" "#PWR062"
+			(at 140.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +3955,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 85.09 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +3964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 81.28 0)
+			(at 140.97 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +3973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 81.28 0)
+			(at 140.97 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +3982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 81.28 0)
+			(at 140.97 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,12 +3991,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5089b1bb-da26-4e42-b7ed-c4d91c8954e3")
+			(uuid "449cecd0-4299-411c-82e7-af5dbf57cb72")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR044")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5033,7 +4012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5acec420-0984-4b5a-a59c-d2f7f90251cb")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR045"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -5083,8 +4062,75 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR034")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:+5V0")
+		(at 41.91 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f70fa26-5aca-4f82-bb45-e098f1597f33")
+		(property "Reference" "#PWR065"
+			(at 41.91 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V0"
+			(at 41.91 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+5V0\""
+			(at 41.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a946015b-803a-47e6-a085-a504344bfa04")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5100,7 +4146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62ec2474-40d4-4c9d-9642-bf65b4c91950")
-		(property "Reference" "J2"
+		(property "Reference" "J146"
 			(at 25.4 46.9899 0)
 			(effects
 				(font
@@ -5158,8 +4204,8 @@
 		)
 		(instances
 			(project ""
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "J2")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "J146")
 					(unit 1)
 				)
 			)
@@ -5175,7 +4221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "655a28a1-96a3-4cda-84e8-d224a6c901f4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR047"
 			(at 238.76 34.29 0)
 			(effects
 				(font
@@ -5225,8 +4271,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR022")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5234,16 +4280,16 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 106.68 76.2 0)
+		(at 113.03 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a0f1157-9fa3-46e3-9612-e509ece41aa7")
-		(property "Reference" "#PWR017"
-			(at 106.68 82.55 0)
+		(uuid "79ebecd8-1f81-45ea-aabe-3ce10f95dafd")
+		(property "Reference" "#PWR060"
+			(at 113.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +4298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 80.01 0)
+			(at 113.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +4307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 76.2 0)
+			(at 113.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +4316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 76.2 0)
+			(at 113.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +4325,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 76.2 0)
+			(at 113.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,79 +4334,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "59b5775d-eea7-4e34-aeda-38b8366761a6")
+			(uuid "f04e69a0-1d1e-4dac-8f48-36ffb57b63fb")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:+3V3")
-		(at 259.08 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ad6efeb-d8aa-4386-93ca-31ac3ad2ddf0")
-		(property "Reference" "#PWR030"
-			(at 259.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 259.08 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
-			(at 259.08 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "745d40ba-d618-4cad-ac2f-5726ed2d4bb3")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR030")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5426,7 +4405,7 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
 					(reference "D2")
 					(unit 1)
 				)
@@ -5434,35 +4413,35 @@
 		)
 	)
 	(symbol
-		(lib_id "DJ:R")
-		(at 259.08 140.97 180)
+		(lib_id "DJ:C")
+		(at 120.65 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82c799d4-e548-4121-a028-aa234409730a")
-		(property "Reference" "R6"
-			(at 261.62 139.6999 0)
+		(uuid "8494dcfa-837f-4448-ae12-7417de59818b")
+		(property "Reference" "C35"
+			(at 123.19 124.4662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "?"
-			(at 261.62 142.2399 0)
+		(property "Value" "1uF"
+			(at 123.19 127.0062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 259.08 140.97 0)
+		(property "Footprint" "djStandard:C_0603_1608Metric"
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +4450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 140.97 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,81 +4458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 259.08 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "faadfece-bbf1-4816-9286-6e87362f85bc")
-		)
-		(pin "2"
-			(uuid "d61b5eb0-60f6-40cc-a262-1bd72bb58660")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:KINGBRIGHT-LED-0402-GREEN")
-		(at 246.38 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c4d6a24-21f9-42c8-ae30-d08184fb25bf")
-		(property "Reference" "LED6"
-			(at 250.19 146.0498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KINGBRIGHT-LED-0402-ORANGE"
-			(at 248.92 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:KINGBRIGHT-LED-APHHS1005-0402"
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/216/APHHS1005CGCK-38896.pdf"
-			(at 251.46 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED KINGBRIGHT APHHS1005 0402 GREEN"
-			(at 246.38 146.05 0)
+		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,15 +4468,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0657c299-a604-4da3-932a-0e6a4e3e7857")
+			(uuid "db716bd7-2dc2-4320-8aed-3e0c8dea1bff")
 		)
 		(pin "2"
-			(uuid "5a820459-2f70-49f3-a7c3-0985e018cb97")
+			(uuid "b83cbc8f-2771-4e2a-b295-f0d29d33d909")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "LED6")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -5634,7 +4540,7 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
 					(reference "H2")
 					(unit 1)
 				)
@@ -5703,7 +4609,7 @@
 		)
 		(instances
 			(project ""
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
 					(reference "D1")
 					(unit 1)
 				)
@@ -5720,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2d490e9-48dd-4c1c-9bc6-a8e5f30a8266")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR049"
 			(at 33.02 41.91 0)
 			(effects
 				(font
@@ -5770,8 +4676,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR013")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5779,16 +4685,16 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 173.99 53.34 0)
+		(at 59.69 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a371bde6-5a05-41aa-9054-c0e6bb2abfe7")
-		(property "Reference" "#PWR020"
-			(at 173.99 59.69 0)
+		(uuid "aa02dad9-bc13-41ae-aa33-f4f0e78c4391")
+		(property "Reference" "#PWR069"
+			(at 59.69 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +4703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 57.15 0)
+			(at 59.69 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +4712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 53.34 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +4721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 53.34 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +4730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 53.34 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,223 +4739,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f77a54e3-7d04-45c9-bf01-75123d373385")
+			(uuid "27d271ca-c811-4252-849d-614f9229eb72")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:KINGBRIGHT-LED-0402-GREEN")
-		(at 119.38 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a47909c1-db6e-49a6-bd7f-3f4bc15de23f")
-		(property "Reference" "LED4"
-			(at 119.888 76.454 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KINGBRIGHT-LED-0402-GREEN"
-			(at 121.92 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:KINGBRIGHT-LED-APHHS1005-0402"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/216/APHHS1005CGCK-38896.pdf"
-			(at 124.46 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED KINGBRIGHT APHHS1005 0402 GREEN"
-			(at 119.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45079228-9495-4aee-b4d2-dcef2ea2c108")
-		)
-		(pin "2"
-			(uuid "bc70d7ea-9cdc-49fe-9619-9ebf3037439e")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "LED4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:R")
-		(at 119.38 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b442546c-7b54-4b68-b00c-eaf7b86babbf")
-		(property "Reference" "R1"
-			(at 120.142 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "?"
-			(at 120.142 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "537aa322-e001-4426-854d-3e4f190f4fa3")
-		)
-		(pin "2"
-			(uuid "050afacd-c14f-482e-8d6d-6dd6e6fd31db")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:C")
-		(at 73.66 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf5ffa9c-9440-4ff5-ae9c-d04f148572d2")
-		(property "Reference" "C3"
-			(at 76.2 69.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 76.2 72.3962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "djStandard:C_0402_1005Metric"
-			(at 73.66 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
-			(at 73.66 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eea8447c-aa99-4c06-9e06-75bc9445002c")
-		)
-		(pin "2"
-			(uuid "7ded82e1-ddb2-4a18-9df8-7e297023afe6")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "C3")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6057,16 +4752,16 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 119.38 76.2 0)
+		(at 120.65 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0e0305e-a20c-45b0-ab1a-a7860b6da79b")
-		(property "Reference" "#PWR01"
-			(at 119.38 82.55 0)
+		(uuid "b3dcbe16-8d91-4f37-89da-7f722e2e7a87")
+		(property "Reference" "#PWR061"
+			(at 120.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,7 +4770,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 80.01 0)
+			(at 120.65 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +4779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 76.2 0)
+			(at 120.65 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +4788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 76.2 0)
+			(at 120.65 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +4797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 76.2 0)
+			(at 120.65 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,12 +4806,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0221e8e-998d-4fbc-8461-5779a8b68ab6")
+			(uuid "c1163da9-5f97-4b56-a38f-9459923fdc15")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR01")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6132,7 +4827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7ab927d-1ce4-4fe0-9eca-d0df5b0f8640")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR043"
 			(at 33.02 31.75 0)
 			(effects
 				(font
@@ -6182,513 +4877,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Management:LM66100DCK")
-		(at 190.5 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf7be3ee-c2f6-40e0-8983-d2c1aa014754")
-		(property "Reference" "U8"
-			(at 190.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM66100DCK"
-			(at 190.5 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 190.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
-			(at 190.5 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
-			(at 190.5 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "81528fa5-56db-423f-b240-72edcd20df62")
-		)
-		(pin "1"
-			(uuid "5d3e2451-7cd3-4f44-8688-e144770e9888")
-		)
-		(pin "3"
-			(uuid "dcf361f2-fde5-488f-8a98-62dd18d4a7d7")
-		)
-		(pin "2"
-			(uuid "c46c313f-0f50-4814-a67b-9a4d1adb7c9d")
-		)
-		(pin "4"
-			(uuid "863bdf6d-d1ab-422c-aff5-aaf34fc8b5e4")
-		)
-		(pin "5"
-			(uuid "99a74ae5-9534-403c-b288-22940c98e11d")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GND")
-		(at 62.23 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfda63fa-49d2-4030-b190-6fe72a4ce1d6")
-		(property "Reference" "#PWR04"
-			(at 62.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ff19441-4a8d-45d4-b296-fa7e23797d2e")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GND")
-		(at 73.66 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4d49937-973f-41fa-aac2-857e33bdb6ee")
-		(property "Reference" "#PWR012"
-			(at 73.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2981cbf5-1c26-4160-96fd-ebaeb62c27bc")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:+5V0")
-		(at 200.66 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd41234a-d7f2-47c1-8363-b78b168331b2")
-		(property "Reference" "#PWR031"
-			(at 200.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V0"
-			(at 200.66 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power - Power symbol creates a global label with name \"+5V0\""
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f56a47ec-57be-427e-8ab6-34dbbc09df95")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:KINGBRIGHT-LED-0402-GREEN")
-		(at 259.08 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e27196e0-cb76-44d5-85b7-2712013794bf")
-		(property "Reference" "LED7"
-			(at 262.89 146.0498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KINGBRIGHT-LED-0402-ORANGE"
-			(at 261.62 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:KINGBRIGHT-LED-APHHS1005-0402"
-			(at 259.08 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/216/APHHS1005CGCK-38896.pdf"
-			(at 264.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED KINGBRIGHT APHHS1005 0402 GREEN"
-			(at 259.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ac96e96-a6f9-4ced-8255-d23d9a3f751c")
-		)
-		(pin "2"
-			(uuid "5da5e876-8647-4180-a047-9fde79562916")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "LED7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GCT-USB3075-30-A")
-		(at 31.75 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb84ca30-db79-4175-9ffe-934118fd750e")
-		(property "Reference" "J28"
-			(at 31.75 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GCT-USB3075-30-A"
-			(at -12.7 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:GCT-USB3075-30-A"
-			(at -12.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/USB3075-30-A.pdf"
-			(at -12.7 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "GCT (GLOBAL CONNECTOR TECHNOLOGY) - USB3075-30-A - USB Connector, Micro USB Type B, USB 2.0, Receptacle, 5 Ways, Surface Mount, Right Angle"
-			(at -12.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.7"
-			(at -12.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "640-USB3075-30-A"
-			(at -12.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB3075-30-A?qs=KUoIvG%2F9IlbGMJplbp1ybA%3D%3D"
-			(at -12.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at -12.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "USB3075-30-A"
-			(at -12.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "MP4"
-			(uuid "6999b16a-3e83-46a9-9a1e-97b9759594f7")
-		)
-		(pin "5"
-			(uuid "82a46363-cdfa-49d6-861f-71d4b8e11b68")
-		)
-		(pin "MP3"
-			(uuid "4ebf1b30-9ab2-4076-bb75-4bc9f543e37f")
-		)
-		(pin "4"
-			(uuid "aaf60753-1462-4f78-905b-5b5f92017cf4")
-		)
-		(pin "MP2"
-			(uuid "47a32ac9-5582-46d2-ab63-bc12aa6d8c9d")
-		)
-		(pin "MH2"
-			(uuid "647d9e79-e5e6-4a40-87eb-2374299f7f1f")
-		)
-		(pin "2"
-			(uuid "be1ab12f-9382-4f4a-be1e-2661f276cb53")
-		)
-		(pin "3"
-			(uuid "be8e7ed7-a5fb-4fdc-a768-bb0993fb4d93")
-		)
-		(pin "MP1"
-			(uuid "6d59b8b1-bfb1-4788-a51f-d6f954894402")
-		)
-		(pin "1"
-			(uuid "a0028018-0930-449d-9ff8-2c6c92ade6de")
-		)
-		(pin "MH1"
-			(uuid "e122bab4-4da5-4f25-8ed3-24b77e5d609a")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "J28")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6696,16 +4886,16 @@
 	)
 	(symbol
 		(lib_id "DJ:C")
-		(at 106.68 71.12 0)
+		(at 67.31 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ebfafc19-2e71-4376-a287-67eb495ec295")
-		(property "Reference" "C9"
-			(at 109.22 69.8562 0)
+		(uuid "ce2f5148-d145-48f8-a0e8-29a9a12ddba6")
+		(property "Reference" "C38"
+			(at 69.85 154.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,8 +4903,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
-			(at 109.22 72.3962 0)
+		(property "Value" "1uF"
+			(at 69.85 157.4862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,8 +4912,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "djStandard:C_0402_1005Metric"
-			(at 106.68 71.12 0)
+		(property "Footprint" "djStandard:C_0805_2012Metric"
+			(at 67.31 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +4922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 71.12 0)
+			(at 67.31 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +4931,7 @@
 			)
 		)
 		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
-			(at 106.68 71.12 0)
+			(at 67.31 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,15 +4940,299 @@
 			)
 		)
 		(pin "1"
-			(uuid "94b647a8-0da4-4625-9074-6b2b9138472b")
+			(uuid "5a680a3e-5651-4d15-b91c-197e83cacf12")
 		)
 		(pin "2"
-			(uuid "e1ca99f4-bc97-440d-abdf-d100a5fa5a41")
+			(uuid "3229d5fd-1498-43fa-be51-bb99866e3d2c")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "C9")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:LM66100DCK")
+		(at 104.14 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7a9628f-3a73-45da-affa-3bcd120c6244")
+		(property "Reference" "U3"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM66100DCK"
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
+			(at 104.14 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
+			(at 104.14 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f3edc99c-9891-402e-9018-67345e05a0ce")
+		)
+		(pin "1"
+			(uuid "8ecdd9bc-c4b9-48ec-a9bc-a74da5c8a2fb")
+		)
+		(pin "3"
+			(uuid "cf517a41-d7e4-456c-9fad-902696ba251d")
+		)
+		(pin "2"
+			(uuid "e0ddb026-0b4f-4a5b-a81b-49f57e5c1e05")
+		)
+		(pin "4"
+			(uuid "7d257abb-9dec-4deb-8753-021db5811f35")
+		)
+		(pin "5"
+			(uuid "e9301f01-2589-4a1f-acd4-c2ff5047266c")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:+3V3")
+		(at 77.47 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec57428a-00a3-4b60-bb50-c35d573e1e48")
+		(property "Reference" "#PWR066"
+			(at 77.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 77.47 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e7f88f-e6fb-4580-bed9-ca5a7edc8950")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:C")
+		(at 87.63 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee685001-8aff-4971-a473-e6a4d6649891")
+		(property "Reference" "C34"
+			(at 90.17 124.4662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 90.17 127.0062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "djStandard:C_0603_1608Metric"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Capacitor - 2-Pin Ceramic"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c34569bb-2065-494e-9de1-65dfe6b74d03")
+		)
+		(pin "2"
+			(uuid "c2c7c67a-0afc-473f-8130-32ae3333a9e3")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 104.14 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8c0f66-a410-43b9-b00a-15577feef710")
+		(property "Reference" "#PWR059"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc14b7e2-d300-4aa0-bdf3-8338bbedcef0")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6774,7 +5248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef7369a7-fc40-40b2-8442-1cf808aeb172")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 111.76 13.97 0)
 			(effects
 				(font
@@ -6828,8 +5302,8 @@
 		)
 		(instances
 			(project ""
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "U7")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6895,8 +5369,290 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:LM66100DCK")
+		(at 140.97 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a54310-47fc-42d7-8477-46e11ab1ff14")
+		(property "Reference" "U4"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM66100DCK"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 140.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
+			(at 140.97 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
+			(at 140.97 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6c4a6485-2aed-4b05-90fa-1968ddeff24d")
+		)
+		(pin "1"
+			(uuid "2f777aba-71d7-428f-9fb7-05cd6ef533b6")
+		)
+		(pin "3"
+			(uuid "a51b42c9-8566-4fd8-a430-40e085eeb5cb")
+		)
+		(pin "2"
+			(uuid "9fba73a2-60e9-4f9e-8eaf-22dfa270aa18")
+		)
+		(pin "4"
+			(uuid "afb9970e-898a-40a3-b527-beb970263630")
+		)
+		(pin "5"
+			(uuid "7f4291c2-61a4-4ebd-923d-34f25478baea")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 67.31 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a771c2-3044-4870-bd22-aebc6f63e6d7")
+		(property "Reference" "#PWR068"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e7cab85-10e3-41d7-af03-acc8f896c514")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 87.63 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3ad4779-3df2-4abd-802f-9f4d26b7657b")
+		(property "Reference" "#PWR057"
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4ed9195-cb0a-4a3c-9954-428be318d035")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 68.58 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbc6e5c5-24f9-4334-b797-99be428512ae")
+		(property "Reference" "JP3"
+			(at 68.58 17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 68.58 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X02-MALE"
+			(at 68.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 68.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78c079e3-1654-4d59-94a6-2764d2368084")
+		)
+		(pin "1"
+			(uuid "a1c430fc-e3f4-4ea9-9886-9f5fb55aa96c")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -6911,7 +5667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe03b374-cf0b-46ed-8c94-c004dc727ed4")
-		(property "Reference" "JP6"
+		(property "Reference" "JP4"
 			(at 134.62 17.526 0)
 			(effects
 				(font
@@ -6963,8 +5719,8 @@
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/008a356d-97cf-4020-8016-2fdc0bda5d05"
-					(reference "JP6")
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/1cee399d-c107-4d22-ad9d-c497704b070f"
+					(reference "JP4")
 					(unit 1)
 				)
 			)

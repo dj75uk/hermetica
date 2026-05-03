@@ -1125,6 +1125,310 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DJ:KINGBRIGHT-LED-0603-GREEN/RED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "APHB1608CGKSURKC"
+				(at 36.83 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "djStandard:KINGBRIGHT-APHB1608CGKSURKC"
+				(at 36.83 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APHB1608CGKSURKC.pdf"
+				(at 36.83 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED KINGBRIGHT-APHB1608 0603 GREEN/RED"
+				(at 36.83 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED SMT JANOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KINGBRIGHT-LED-0603-GREEN/RED_0_0"
+				(text "F"
+					(at -1.143 -0.381 0)
+					(effects
+						(font
+							(size 0.3048 0.3048)
+						)
+					)
+				)
+				(text "F"
+					(at -1.143 -5.461 0)
+					(effects
+						(font
+							(size 0.3048 0.3048)
+						)
+					)
+				)
+				(text "Red"
+					(at 0 0.889 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+					)
+				)
+				(text "V =1.95"
+					(at 0 -5.08 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+					)
+				)
+			)
+			(symbol "KINGBRIGHT-LED-0603-GREEN/RED_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.524) (xy -0.762 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.556) (xy -0.762 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.302) (xy -0.508 3.81) (xy -0.254 3.81) (xy -0.508 3.81) (xy -0.508 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy -0.508 -1.27) (xy -0.254 -1.27) (xy -0.508 -1.27) (xy -0.508 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 3.81) (xy 0 4.318) (xy 0.254 4.318) (xy 0 4.318) (xy 0 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0 -0.762) (xy 0.254 -0.762) (xy 0 -0.762) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.524) (xy -0.762 2.54) (xy 0.762 3.556) (xy 0.762 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.556) (xy -0.762 -2.54) (xy 0.762 -1.524) (xy 0.762 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KINGBRIGHT-LED-0603-GREEN/RED_1_0"
+				(rectangle
+					(start -1.905 5.08)
+					(end 1.905 -5.715)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "V =2.10"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+					)
+				)
+				(text "Green"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+					)
+				)
+			)
+			(symbol "KINGBRIGHT-LED-0603-GREEN/RED_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 1.778)
+					(name "K_RED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.778)
+					(name "K_GREEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 1.778)
+					(name "A_RED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 1.778)
+					(name "A_GREEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DJ:R"
 			(pin_numbers
 				(hide yes)
@@ -1253,29 +1557,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "LED_C"
+	(text "M7 ACTIVE\nM7 ERROR"
 		(exclude_from_sim no)
-		(at 120.65 141.224 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2067c6ca-0607-49eb-be84-b6ea02004f27")
-	)
-	(text "M4 ACTIVE"
-		(exclude_from_sim no)
-		(at 120.65 86.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2e373dda-bed0-4b2e-9328-f5513d289349")
-	)
-	(text "M7 ACTIVE"
-		(exclude_from_sim no)
-		(at 43.434 87.122 0)
+		(at 204.47 47.752 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1283,57 +1567,21 @@
 		)
 		(uuid "30cbe29d-ed62-4c86-8ef8-76a10a35cb47")
 	)
-	(text "LED_B"
+	(text "M4 ACTIVE\nM4 ERROR"
 		(exclude_from_sim no)
-		(at 82.55 141.224 0)
+		(at 237.998 47.752 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "95bc159c-a79e-47c9-a978-b13ad6a29859")
-	)
-	(text "M4 ERROR"
-		(exclude_from_sim no)
-		(at 159.258 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c13293d3-8c3a-4c04-9fb3-71e369e5d87e")
-	)
-	(text "M7 ERROR"
-		(exclude_from_sim no)
-		(at 82.042 86.868 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ec1f0147-4030-4c6b-954e-01f44be9f9c1")
-	)
-	(text "LED_A"
-		(exclude_from_sim no)
-		(at 44.45 141.224 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f0599d8f-828a-419c-be5e-ab003d447b00")
+		(uuid "f8f75d55-9115-40b9-bbad-cb8140d8c437")
 	)
 	(junction
 		(at 120.65 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "161eab8e-acb4-48fa-aa5c-eecc88de4b4f")
-	)
-	(junction
-		(at 113.03 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f385eab-60c6-4041-9fc9-36b083f91cce")
 	)
 	(junction
 		(at 158.75 78.74)
@@ -1354,10 +1602,10 @@
 		(uuid "64658993-c766-4e6f-ae47-a6ffd491d486")
 	)
 	(junction
-		(at 82.55 133.35)
+		(at 238.76 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b5c92f5-712f-476d-b7c7-41b45a1a7992")
+		(uuid "728d93e3-c477-4b99-85fe-d330f85c2026")
 	)
 	(junction
 		(at 36.83 68.58)
@@ -1366,34 +1614,16 @@
 		(uuid "7728dd77-e52b-4eb0-9d20-5f05d8e405a9")
 	)
 	(junction
-		(at 120.65 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80f4531a-a6b4-43dd-822f-d26f6b89e066")
-	)
-	(junction
-		(at 44.45 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96d19915-78ca-42d8-9ca7-f7456ae1dca2")
-	)
-	(junction
 		(at 113.03 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b38f694d-dbb6-4c73-b880-c7d433589482")
 	)
 	(junction
-		(at 74.93 123.19)
+		(at 204.47 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c17428e7-8f22-4392-ba6a-cdebb767affd")
-	)
-	(junction
-		(at 36.83 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce3c8a21-e209-4e49-b490-dce99f83bc0a")
+		(uuid "cbddd599-07a5-47ca-8743-3ff108197849")
 	)
 	(junction
 		(at 82.55 78.74)
@@ -1406,16 +1636,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3cf5c86-87d3-4969-b323-e8d23dffcc51")
-	)
-	(wire
-		(pts
-			(xy 74.93 130.81) (xy 74.93 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "076ab582-ed4c-4ecc-b5c2-78282328cff1")
 	)
 	(wire
 		(pts
@@ -1436,16 +1656,6 @@
 			(type default)
 		)
 		(uuid "12e11ae2-e206-4940-b1de-877ed43842fa")
-	)
-	(wire
-		(pts
-			(xy 44.45 133.35) (xy 44.45 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24d7c1c4-2184-4f54-a295-c461360639df")
 	)
 	(wire
 		(pts
@@ -1479,6 +1689,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 58.42) (xy 236.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc6f69a-cf90-4cf4-940a-0411c0a1861b")
+	)
+	(wire
+		(pts
 			(xy 36.83 76.2) (xy 36.83 78.74)
 		)
 		(stroke
@@ -1489,33 +1709,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 123.19) (xy 36.83 125.73)
+			(xy 241.3 68.58) (xy 241.3 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "472ac896-409a-43e2-b946-7a6e3f4f77c0")
-	)
-	(wire
-		(pts
-			(xy 74.93 133.35) (xy 82.55 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d917edd-903b-4d47-a4d6-a4df0d25f6b8")
-	)
-	(wire
-		(pts
-			(xy 82.55 133.35) (xy 82.55 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56e70e38-7e03-4b35-b61e-9ee2471ffbf6")
+		(uuid "45456971-dbe0-470f-b6bc-19f28a344c59")
 	)
 	(wire
 		(pts
@@ -1529,33 +1729,33 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 133.35) (xy 82.55 134.62)
+			(xy 238.76 69.85) (xy 238.76 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a9c5540-d611-4101-9e66-4aaba7fd4742")
+		(uuid "730b1a45-b6a4-483d-a14d-589e9a4e6866")
 	)
 	(wire
 		(pts
-			(xy 36.83 133.35) (xy 44.45 133.35)
+			(xy 207.01 58.42) (xy 207.01 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6dee68ea-cdd5-4b6e-98ba-0e2ea4991c86")
+		(uuid "781a9606-8baa-4071-919c-d3a69dc17361")
 	)
 	(wire
 		(pts
-			(xy 74.93 123.19) (xy 74.93 125.73)
+			(xy 68.58 68.58) (xy 67.31 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "742e3895-661d-4f4e-a27c-99a950d4fe6b")
+		(uuid "7f82e040-2f58-49f2-b9c9-5de9e13aabb7")
 	)
 	(wire
 		(pts
@@ -1579,13 +1779,43 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 123.19) (xy 113.03 125.73)
+			(xy 140.97 68.58) (xy 144.78 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "882707c5-12ef-4e5d-8e5c-1a881b5a4e27")
+		(uuid "8946ed48-5461-42bc-9073-d058cf638b27")
+	)
+	(wire
+		(pts
+			(xy 236.22 69.85) (xy 238.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f3a570-2b01-4a9e-85e5-795e2041312f")
+	)
+	(wire
+		(pts
+			(xy 204.47 69.85) (xy 207.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e918c0-7ae6-404f-8b9c-0c9d064b0512")
+	)
+	(wire
+		(pts
+			(xy 201.93 68.58) (xy 201.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fea594-b65a-4d18-a233-9e8e1706696d")
 	)
 	(wire
 		(pts
@@ -1599,23 +1829,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 68.58) (xy 151.13 68.58)
+			(xy 149.86 68.58) (xy 151.13 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9db4015f-00c3-4d32-91de-85abf004a10f")
-	)
-	(wire
-		(pts
-			(xy 110.49 123.19) (xy 113.03 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f484d3c-729a-47c3-a51c-7f59f607ce8f")
 	)
 	(wire
 		(pts
@@ -1629,13 +1849,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 130.81) (xy 36.83 133.35)
+			(xy 236.22 68.58) (xy 236.22 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a54360f8-97ea-4b1f-94d4-4b09550ac6c2")
+		(uuid "a8622652-86e6-4eb6-a91e-abe61ecab12e")
 	)
 	(wire
 		(pts
@@ -1649,13 +1869,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 133.35) (xy 44.45 128.27)
+			(xy 106.68 68.58) (xy 105.41 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3e53a2b-50ce-4139-9734-28b021f03c1e")
+		(uuid "b1f58a50-4165-4175-a188-06000d59be81")
+	)
+	(wire
+		(pts
+			(xy 201.93 58.42) (xy 201.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5742414-b47a-4c39-b90a-60d983f27747")
 	)
 	(wire
 		(pts
@@ -1689,17 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 133.35) (xy 120.65 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca11718b-b8fe-4436-9d58-81d12d4623c3")
-	)
-	(wire
-		(pts
-			(xy 34.29 68.58) (xy 36.83 68.58)
+			(xy 35.56 68.58) (xy 36.83 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1709,17 +1929,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 123.19) (xy 74.93 123.19)
+			(xy 241.3 58.42) (xy 241.3 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce97bbc0-3f34-47c3-844e-05001e9a8428")
+		(uuid "cf5ec583-37ba-4878-9d6a-3777a66c08ef")
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 74.93 68.58)
+			(xy 73.66 68.58) (xy 74.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1729,23 +1949,33 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 68.58) (xy 113.03 68.58)
+			(xy 207.01 68.58) (xy 207.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a67cc1-1da6-4da2-977f-e9b21e6ce861")
+	)
+	(wire
+		(pts
+			(xy 30.48 68.58) (xy 29.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2944b1-5b55-40ff-a2d9-7dcf5c3bf329")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 113.03 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e51afc9b-902b-430d-abdc-9ef02c0f85ee")
-	)
-	(wire
-		(pts
-			(xy 120.65 133.35) (xy 120.65 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec6b8a29-737d-4b55-bc74-1d1f9c7df8d4")
 	)
 	(wire
 		(pts
@@ -1769,13 +1999,33 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 123.19) (xy 36.83 123.19)
+			(xy 204.47 69.85) (xy 204.47 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5112004-de87-4d73-bbd9-065844c6dc25")
+		(uuid "f0ebae6c-ba79-4e6e-bb05-5e55be03cd8a")
+	)
+	(wire
+		(pts
+			(xy 238.76 69.85) (xy 241.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ae249b-c929-41ba-97d9-5fd6d4641a4e")
+	)
+	(wire
+		(pts
+			(xy 201.93 69.85) (xy 204.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f354800a-ea05-4991-bcd6-2db8479f7b23")
 	)
 	(wire
 		(pts
@@ -1799,26 +2049,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 133.35) (xy 120.65 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f875345d-658c-499b-b8f0-27ea429831e6")
-	)
-	(wire
-		(pts
-			(xy 113.03 130.81) (xy 113.03 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6a816f-48c5-4c67-8e41-0dba83d8b4cb")
-	)
-	(wire
-		(pts
 			(xy 36.83 68.58) (xy 36.83 71.12)
 		)
 		(stroke
@@ -1826,6 +2056,86 @@
 			(type default)
 		)
 		(uuid "fed506ee-eab7-4d70-954c-4cff0732880c")
+	)
+	(label "M4_GRN"
+		(at 241.3 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "008c08d1-8b46-4d80-86b3-051b70010aff")
+	)
+	(label "LED_D"
+		(at 143.51 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38fd6446-994d-4f34-8a09-6af206d66470")
+	)
+	(label "LED_A"
+		(at 29.21 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "436be0a7-e474-4f44-be2e-8f4af24ef225")
+	)
+	(label "LED_B"
+		(at 67.31 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b72a105-aa65-4cc5-bf37-02aab48a1b04")
+	)
+	(label "M4_RED"
+		(at 236.22 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "910720ac-f4cf-4085-871c-e40b29fb2bd4")
+	)
+	(label "M7_RED"
+		(at 201.93 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aeef0fae-d0fc-4a30-977b-1a954643b2bc")
+	)
+	(label "LED_C"
+		(at 105.41 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b55db597-6876-442c-854a-36a19f0bc670")
+	)
+	(label "M7_GRN"
+		(at 207.01 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d335d02c-8a7c-48ba-9e2b-ad9a239ffc92")
 	)
 	(symbol
 		(lib_id "DJ:+5V0")
@@ -1837,7 +2147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01df9a7e-260f-4bac-8413-ea50a076cad0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 21.59 27.94 0)
 			(effects
 				(font
@@ -1888,7 +2198,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1903,7 +2213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "066aae53-113a-4907-b0b2-609db5907c9f")
-		(property "Reference" "LED4"
+		(property "Reference" "LED6"
 			(at 161.798 60.96 90)
 			(effects
 				(font
@@ -1959,7 +2269,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "LED4")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -1975,7 +2285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "075c9473-6a31-4113-874c-db862a4825cb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 21.59 40.64 0)
 			(effects
 				(font
@@ -2026,7 +2336,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2034,31 +2344,33 @@
 	)
 	(symbol
 		(lib_id "DJ:R")
-		(at 69.85 68.58 270)
+		(at 241.3 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "15cbabe4-39cc-4966-830a-21552fc2e8c4")
-		(property "Reference" "R12"
-			(at 69.85 66.802 90)
+		(uuid "12bb1f0e-dfe9-4b1e-a2a4-12e9f488c8d2")
+		(property "Reference" "R33"
+			(at 242.316 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "47K"
-			(at 69.85 70.612 90)
+		(property "Value" "500R"
+			(at 242.316 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 69.85 68.58 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 68.58 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2388,74 @@
 			)
 		)
 		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 69.85 68.58 0)
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5bd65b0-985d-4059-9c66-a6c433e7d005")
+		)
+		(pin "2"
+			(uuid "d99c1fe5-7c27-4e6d-8cc6-30bbc619b8c1")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:R")
+		(at 71.12 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15cbabe4-39cc-4966-830a-21552fc2e8c4")
+		(property "Reference" "R14"
+			(at 71.12 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 71.12 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "djStandard:R_0402_1005Metric"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Resistor - 2-Pin"
+			(at 71.12 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,143 +2472,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:+3V3")
-		(at 120.65 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1807162c-9d86-48fe-a271-0c2790b1f5b3")
-		(property "Reference" "#PWR031"
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 120.65 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4c0ae29-1c4c-4c2d-ad31-20ea62c6bb88")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:R")
-		(at 44.45 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "189e0345-5a3a-499b-8f6a-491527145931")
-		(property "Reference" "R20"
-			(at 45.466 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "?"
-			(at 45.466 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 44.45 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 44.45 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bece9b4d-aa3f-4cac-90cc-af11326f9558")
-		)
-		(pin "2"
-			(uuid "907378a1-2440-46bd-b85f-2b0d58ab8271")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R20")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2245,7 +2488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e027a99-f5ce-4d9e-8521-e0989f45ba8c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR031"
 			(at 120.65 57.15 0)
 			(effects
 				(font
@@ -2296,39 +2539,41 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR012")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DJ:R")
-		(at 107.95 68.58 270)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 196.85 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1e2e98d9-679e-403a-9c1a-8838ed8098ce")
-		(property "Reference" "R15"
-			(at 107.95 66.802 90)
+		(uuid "1e0b7750-c31c-4e66-bc7a-397bd38e8595")
+		(property "Reference" "J148"
+			(at 192.786 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "47K"
-			(at 107.95 70.612 90)
+		(property "Value" "Conn_01x01"
+			(at 194.31 53.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 107.95 68.58 0)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
+			(at 196.85 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2582,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 68.58 0)
+			(at 196.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 196.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bbaeec1-bcb8-4da4-82ad-27f7788fb918")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
+					(reference "J148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:R")
+		(at 109.22 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e2e98d9-679e-403a-9c1a-8838ed8098ce")
+		(property "Reference" "R15"
+			(at 109.22 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 109.22 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "djStandard:R_0402_1005Metric"
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +2655,7 @@
 			)
 		)
 		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 107.95 68.58 0)
+			(at 109.22 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,15 +2680,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 100.33 123.19 180)
+		(at 246.38 54.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "23099731-1e08-416d-8611-e83d2f85ca38")
-		(property "Reference" "J52"
-			(at 96.266 123.19 0)
+		(uuid "205b002b-bd75-4955-94dd-248da847ab56")
+		(property "Reference" "J151"
+			(at 250.444 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2697,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 97.79 121.9201 0)
+			(at 248.92 53.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2707,7 @@
 			)
 		)
 		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
-			(at 100.33 123.19 0)
+			(at 246.38 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 123.19 0)
+			(at 246.38 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2725,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 100.33 123.19 0)
+			(at 246.38 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,12 +2734,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8d148fe-cdfd-4d64-9a3a-4b691894eb4e")
+			(uuid "d18502c4-4a00-4a82-a1f2-cc0750b64d1e")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "J52")
+					(reference "J151")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c4730e-060d-41d0-a5e4-f07b3ea22a39")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 24.13 25.3999 0)
 			(effects
 				(font
@@ -2454,7 +2764,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "660R"
 			(at 24.13 27.9399 0)
 			(effects
 				(font
@@ -2499,7 +2809,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2514,7 +2824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23c71a0e-514d-45b5-aacc-49e95b78d24b")
-		(property "Reference" "R17"
+		(property "Reference" "R12"
 			(at 159.766 54.864 0)
 			(effects
 				(font
@@ -2523,7 +2833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "330R"
 			(at 159.766 56.896 0)
 			(effects
 				(font
@@ -2568,7 +2878,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R17")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2583,7 +2893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24d88158-0692-4cac-b6b6-16c1ae6d41fc")
-		(property "Reference" "R5"
+		(property "Reference" "R17"
 			(at 37.846 72.644 0)
 			(effects
 				(font
@@ -2637,7 +2947,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R5")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2652,7 +2962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26902039-a4f7-48d0-b98b-8f0d4d1220b4")
-		(property "Reference" "R13"
+		(property "Reference" "R18"
 			(at 75.946 72.644 0)
 			(effects
 				(font
@@ -2706,7 +3016,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R13")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2721,7 +3031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26f1c7aa-6b77-4c85-a961-9ce7a33ae8ec")
-		(property "Reference" "J9"
+		(property "Reference" "J140"
 			(at 58.166 68.58 0)
 			(effects
 				(font
@@ -2772,148 +3082,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:R")
-		(at 120.65 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c9568f4-e18c-4922-bf22-ce0f52cd47ec")
-		(property "Reference" "R26"
-			(at 121.666 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "?"
-			(at 121.666 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 120.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 120.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "715ddbb9-255d-4ce6-b3f2-68f846ce0c34")
-		)
-		(pin "2"
-			(uuid "e404f05e-a656-4c7d-a644-241895ac5712")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:KINGBRIGHT-LED-0402-GREEN")
-		(at 44.45 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e808910-fc38-4c69-81c1-ad181e906d7d")
-		(property "Reference" "LED5"
-			(at 47.498 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KINGBRIGHT-LED-0402-ORANGE"
-			(at 46.99 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:KINGBRIGHT-LED-APHHS1005-0402"
-			(at 44.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/216/APHHS1005CGCK-38896.pdf"
-			(at 49.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED KINGBRIGHT APHHS1005 0402 GREEN"
-			(at 44.45 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68e8b192-4702-4097-a1c0-e59d930929a2")
-		)
-		(pin "2"
-			(uuid "b2737f45-7100-41cd-816e-66fc839ded05")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "LED5")
+					(reference "J140")
 					(unit 1)
 				)
 			)
@@ -3024,15 +3193,15 @@
 	)
 	(symbol
 		(lib_id "DJ:R")
-		(at 31.75 68.58 270)
+		(at 33.02 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "34cd36ed-20fb-4ba4-8bb2-c173a3944772")
-		(property "Reference" "R7"
-			(at 31.75 66.802 90)
+		(property "Reference" "R13"
+			(at 33.02 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3209,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 31.75 70.612 90)
+			(at 33.02 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3217,7 @@
 			)
 		)
 		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 31.75 68.58 0)
+			(at 33.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 68.58 0)
+			(at 33.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3235,7 @@
 			)
 		)
 		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 31.75 68.58 0)
+			(at 33.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3252,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R7")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3099,7 +3268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3691d8f0-1328-4ad5-8e33-0529dd0373ad")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR033"
 			(at 44.45 86.36 0)
 			(effects
 				(font
@@ -3150,7 +3319,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR04")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3165,7 +3334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bab6580-1dde-4e6e-8df6-fafc437e0b65")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 152.146 72.644 0)
 			(effects
 				(font
@@ -3219,73 +3388,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 24.13 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "414816bc-e4a9-4dbd-8fec-2c5116316175")
-		(property "Reference" "J46"
-			(at 20.066 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 21.59 121.9201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
-			(at 24.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d4f4f06-ecdb-4dcd-ba5c-d64d37e9afe1")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "J46")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3301,7 +3404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d87cf0-197c-4e9f-b5ca-45c78f09be2a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR028"
 			(at 34.29 40.64 0)
 			(effects
 				(font
@@ -3352,7 +3455,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR038")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3368,7 +3471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "430a614a-8ab1-4f4c-9f63-4690fe40f377")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR029"
 			(at 44.45 57.15 0)
 			(effects
 				(font
@@ -3419,7 +3522,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR03")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3427,15 +3530,15 @@
 	)
 	(symbol
 		(lib_id "DJ:R")
-		(at 82.55 110.49 180)
+		(at 207.01 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4521450e-3f6a-42de-a18b-57ff5dd874ca")
-		(property "Reference" "R23"
-			(at 83.566 109.474 0)
+		(uuid "44228f20-4210-42c1-aff1-83ea13dc84a4")
+		(property "Reference" "R31"
+			(at 208.026 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,8 +3546,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
-			(at 83.566 111.506 0)
+		(property "Value" "500R"
+			(at 208.026 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3556,7 @@
 			)
 		)
 		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 82.55 110.49 0)
+			(at 207.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 110.49 0)
+			(at 207.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3574,7 @@
 			)
 		)
 		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 82.55 110.49 0)
+			(at 207.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,15 +3583,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b453bfab-e293-4caf-9567-ed1ebecb6b88")
+			(uuid "8ce72c93-e85b-434d-abd5-4a1474035803")
 		)
 		(pin "2"
-			(uuid "f3b65e60-cd1c-447c-93d2-d034ef712bf1")
+			(uuid "baa7554d-de2a-413e-b61f-6205e6589eda")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R23")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3503,7 +3606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46e0f990-10ab-4fc3-9ffa-ea762287266f")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 121.666 54.864 0)
 			(effects
 				(font
@@ -3512,7 +3615,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "330R"
 			(at 121.666 56.896 0)
 			(effects
 				(font
@@ -3557,7 +3660,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3573,7 +3676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aa219f3-47d6-48bf-9f2a-b1b8a7253230")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR034"
 			(at 82.55 86.36 0)
 			(effects
 				(font
@@ -3624,7 +3727,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR011")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3639,7 +3742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ff449e1-f49b-40c7-9f74-e4243d0b9162")
-		(property "Reference" "LED2"
+		(property "Reference" "LED4"
 			(at 85.598 60.96 90)
 			(effects
 				(font
@@ -3695,79 +3798,7 @@
 		(instances
 			(project ""
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:KINGBRIGHT-LED-0402-GREEN")
-		(at 82.55 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "504b8f94-de42-4a4f-9773-c8dd12b203f2")
-		(property "Reference" "LED8"
-			(at 85.598 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KINGBRIGHT-LED-0402-ORANGE"
-			(at 85.09 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:KINGBRIGHT-LED-APHHS1005-0402"
-			(at 82.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/216/APHHS1005CGCK-38896.pdf"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED KINGBRIGHT APHHS1005 0402 GREEN"
-			(at 82.55 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8f01543-a3b4-409f-be70-fc2ab72fcf86")
-		)
-		(pin "2"
-			(uuid "3b022ed1-bad2-467f-bb47-36616761d6f5")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "LED8")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -3871,73 +3902,6 @@
 			(project ""
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:R")
-		(at 31.75 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5386594f-d1f8-4d12-94de-d9fda6210560")
-		(property "Reference" "R21"
-			(at 31.75 121.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47K"
-			(at 31.75 125.222 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 31.75 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 31.75 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa0a4c96-a177-4260-89a1-5377465cc0e0")
-		)
-		(pin "2"
-			(uuid "28baa3f2-1f5d-4579-ba8e-3d583e599c84")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4048,6 +4012,75 @@
 	)
 	(symbol
 		(lib_id "DJ:R")
+		(at 201.93 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ab43009-7b1d-4456-b0cf-496d81325c17")
+		(property "Reference" "R30"
+			(at 202.946 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500R"
+			(at 202.946 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "djStandard:R_0402_1005Metric"
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic - Resistor - 2-Pin"
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "332f0367-2f89-44f0-bc13-e3178b85ddeb")
+		)
+		(pin "2"
+			(uuid "cb42bb34-cfe9-4813-a6f1-9fca3da3d6d3")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:R")
 		(at 82.55 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4055,7 +4088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c07e4b7-05d6-4eb9-ab08-cebc592608cf")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 83.566 54.864 0)
 			(effects
 				(font
@@ -4064,7 +4097,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "330R"
 			(at 83.566 56.896 0)
 			(effects
 				(font
@@ -4109,7 +4142,74 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R11")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:GND")
+		(at 204.47 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dd24706-dfee-4a56-9880-bb3945fc2394")
+		(property "Reference" "#PWR050"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20fe47e8-e855-4ddc-b818-f133cb47700c")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4125,7 +4225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631ce512-f572-4153-a590-208548ab5a4c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR030"
 			(at 82.55 57.15 0)
 			(effects
 				(font
@@ -4176,7 +4276,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR010")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4184,15 +4284,15 @@
 	)
 	(symbol
 		(lib_id "DJ:R")
-		(at 146.05 68.58 270)
+		(at 147.32 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "64849a0e-1fd5-4b22-a526-66dbd9147979")
-		(property "Reference" "R18"
-			(at 146.05 66.802 90)
+		(property "Reference" "R16"
+			(at 147.32 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4300,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 146.05 70.612 90)
+			(at 147.32 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4308,7 @@
 			)
 		)
 		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 146.05 68.58 0)
+			(at 147.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4317,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 68.58 0)
+			(at 147.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4326,7 @@
 			)
 		)
 		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 146.05 68.58 0)
+			(at 147.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,74 +4343,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:+3V3")
-		(at 82.55 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "653f5a62-3015-4495-bb09-7c7982bfa8e5")
-		(property "Reference" "#PWR026"
-			(at 82.55 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 82.55 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80a3db75-4a2a-4818-be13-e466e827bb36")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR026")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e7a9bd4-17d3-4c94-b361-b31a723ff423")
-		(property "Reference" "LED3"
+		(property "Reference" "LED5"
 			(at 123.698 60.96 90)
 			(effects
 				(font
@@ -4382,7 +4415,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "LED3")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -4390,31 +4423,33 @@
 	)
 	(symbol
 		(lib_id "DJ:R")
-		(at 107.95 123.19 270)
+		(at 236.22 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "72399544-a950-4101-8bb9-1285c58856be")
-		(property "Reference" "R27"
-			(at 107.95 121.412 90)
+		(uuid "72398555-8ac2-4fa7-beda-3384d79dd81f")
+		(property "Reference" "R32"
+			(at 237.236 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "47K"
-			(at 107.95 125.222 90)
+		(property "Value" "500R"
+			(at 237.236 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 107.95 123.19 0)
+			(at 236.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 123.19 0)
+			(at 236.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4467,7 @@
 			)
 		)
 		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 107.95 123.19 0)
+			(at 236.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,15 +4476,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d474eda-a5c8-4a3f-b281-735eb607b5c7")
+			(uuid "8bff60b2-fe72-47ac-a489-8b48f2c3eabd")
 		)
 		(pin "2"
-			(uuid "c98e570e-f062-4939-8fda-e1e9e16145b5")
+			(uuid "b082ee2b-0ce4-456b-9f7e-837d3c067aa1")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R27")
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:KINGBRIGHT-LED-0603-GREEN/RED")
+		(at 238.76 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "794d6a1e-7bbb-471d-a56a-b36d503b731f")
+		(property "Reference" "LED11"
+			(at 245.11 64.7698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "APHB1608CGKSURKC"
+			(at 245.11 67.3098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "djStandard:KINGBRIGHT-APHB1608CGKSURKC"
+			(at 236.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APHB1608CGKSURKC.pdf"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED KINGBRIGHT-APHB1608 0603 GREEN/RED"
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1ff95f30-d67d-4f68-883c-225997c88186")
+		)
+		(pin "2"
+			(uuid "e374b1e7-f767-4532-99df-9c8e18a95d40")
+		)
+		(pin "3"
+			(uuid "afd8bc87-082e-4d95-82a6-a8a6ec373e61")
+		)
+		(pin "1"
+			(uuid "16188046-d2ab-4846-8c15-d8117e50cd39")
+		)
+		(instances
+			(project "hermetica-stm32h755-prototyping"
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -4465,7 +4579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a9b706c-53a4-483a-8885-1eef4b6c3002")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR032"
 			(at 158.75 57.15 0)
 			(effects
 				(font
@@ -4516,7 +4630,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR015")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4532,7 +4646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ad6efeb-d8aa-4386-93ca-31ac3ad2ddf0")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 34.29 27.94 0)
 			(effects
 				(font
@@ -4583,7 +4697,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4599,7 +4713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e1a9379-129f-41e7-adf2-21189a408e1b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR036"
 			(at 158.75 86.36 0)
 			(effects
 				(font
@@ -4650,146 +4764,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GND")
-		(at 82.55 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8060e4b6-2a83-4d25-889d-d0b704e1138f")
-		(property "Reference" "#PWR027"
-			(at 82.55 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b3126df-4160-4d27-a046-7a6134d18016")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:KINGBRIGHT-LED-0402-GREEN")
-		(at 120.65 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "809f254e-d9d5-4106-aeec-9fac313c5d9c")
-		(property "Reference" "LED9"
-			(at 123.698 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KINGBRIGHT-LED-0402-ORANGE"
-			(at 123.19 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:KINGBRIGHT-LED-APHHS1005-0402"
-			(at 120.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/216/APHHS1005CGCK-38896.pdf"
-			(at 125.73 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED KINGBRIGHT APHHS1005 0402 GREEN"
-			(at 120.65 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4d6832e-202a-490c-97a1-65ea2100c9be")
-		)
-		(pin "2"
-			(uuid "49dc63e2-9ceb-4a3f-a46c-76291d7347e4")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "LED9")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4805,7 +4780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82c799d4-e548-4121-a028-aa234409730a")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 36.83 25.3999 0)
 			(effects
 				(font
@@ -4814,7 +4789,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "330R"
 			(at 36.83 27.9399 0)
 			(effects
 				(font
@@ -4859,7 +4834,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4867,16 +4842,16 @@
 	)
 	(symbol
 		(lib_id "DJ:GND")
-		(at 120.65 134.62 0)
+		(at 238.76 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83c4cc79-4e56-4df6-b5f2-66630e97bd3f")
-		(property "Reference" "#PWR033"
-			(at 120.65 140.97 0)
+		(uuid "9662da29-5fd7-4cc9-9fb0-038a96e29ab3")
+		(property "Reference" "#PWR052"
+			(at 238.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +4860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 138.43 0)
+			(at 238.76 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +4869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 134.62 0)
+			(at 238.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 134.62 0)
+			(at 238.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +4887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 134.62 0)
+			(at 238.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,12 +4896,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1ee307e-ad91-45fa-a14d-3fad76bb65b6")
+			(uuid "d09b3ce2-15dd-4ce6-a7f9-27e842a1b51d")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR033")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4942,7 +4917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c4d6a24-21f9-42c8-ae30-d08184fb25bf")
-		(property "Reference" "LED6"
+		(property "Reference" "LED1"
 			(at 25.4 31.7498 90)
 			(effects
 				(font
@@ -4999,7 +4974,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "LED6")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -5014,7 +4989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a03186c4-ca0a-4edd-a380-46be0c988263")
-		(property "Reference" "J3"
+		(property "Reference" "J139"
 			(at 20.066 68.58 0)
 			(effects
 				(font
@@ -5065,73 +5040,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 62.23 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a20313c2-e0f6-4610-8937-96ad976372bc")
-		(property "Reference" "J51"
-			(at 58.166 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 59.69 121.9201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
-			(at 62.23 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6838d47b-8cbf-4c40-8038-7107e8760b23")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "J51")
+					(reference "J139")
 					(unit 1)
 				)
 			)
@@ -5146,7 +5055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ae1d9e-b693-48ce-8d5b-8b3ef68ebd14")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 114.046 72.644 0)
 			(effects
 				(font
@@ -5200,7 +5109,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5215,7 +5124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5a86d76-e7b3-42c4-93e5-e60c545ba529")
-		(property "Reference" "J28"
+		(property "Reference" "J141"
 			(at 96.266 68.58 0)
 			(effects
 				(font
@@ -5266,42 +5175,31 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "J28")
+					(reference "J141")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DJ:DIODESINC-MMBT4401-7-F-SOT-23-3")
-		(at 44.45 123.19 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 231.14 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4824688-fcd0-43ad-8aff-6ff89dc9a559")
-		(property "Reference" "Q5"
-			(at 46.482 123.19 0)
+		(uuid "b267a4ec-3dfd-4b69-96e2-59f1945dfcf7")
+		(property "Reference" "J150"
+			(at 227.076 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "DIODESINC-MMBT4401-7-F-SOT-23-3"
-			(at 58.166 132.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 58.166 134.874 0)
+		(property "Value" "Conn_01x01"
+			(at 228.6 53.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,28 +5208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/115/DIODS20594_1-2541823.pdf"
-			(at 58.166 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc - MMBT4401 - NPN BJT, 40V, 310mW, 600mA, SOT-23-3"
-			(at 58.166 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 44.45 123.19 0)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
+			(at 231.14 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,8 +5217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "VBIC"
-			(at 44.45 123.19 0)
+		(property "Datasheet" "~"
+			(at 231.14 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,8 +5226,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 44.45 123.19 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 231.14 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,18 +5236,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "da1a0ec3-b6a3-4c41-848c-115eddc62af6")
-		)
-		(pin "2"
-			(uuid "e13841ee-77f2-4fd0-8844-6750b5dfd82c")
-		)
-		(pin "3"
-			(uuid "fe58faf5-848a-4213-a429-2d8177c89ed7")
+			(uuid "18d61f38-370a-49a1-b594-497ccda31792")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "Q5")
+					(reference "J150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DJ:KINGBRIGHT-LED-0603-GREEN/RED")
+		(at 204.47 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b564d329-c49c-41cd-a0f5-84a96a42d5d5")
+		(property "Reference" "LED10"
+			(at 210.82 64.7698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "APHB1608CGKSURKC"
+			(at 210.82 67.3098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "djStandard:KINGBRIGHT-APHB1608CGKSURKC"
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APHB1608CGKSURKC.pdf"
+			(at 204.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED KINGBRIGHT-APHB1608 0603 GREEN/RED"
+			(at 207.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0c6481fd-d252-4ac4-b7fb-ca4aa5b356f1")
+		)
+		(pin "2"
+			(uuid "ae00ced7-608c-40cb-943d-d46f93c46e93")
+		)
+		(pin "3"
+			(uuid "09af25c9-0796-47ab-bac8-7f68fac4c81b")
+		)
+		(pin "1"
+			(uuid "15896123-24b5-4607-ba92-3d72c9fc8d99")
+		)
+		(instances
+			(project ""
+				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -5384,7 +5335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bafb60f1-b722-4b22-b462-e498676a22b4")
-		(property "Reference" "R1"
+		(property "Reference" "R9"
 			(at 45.466 54.864 0)
 			(effects
 				(font
@@ -5393,7 +5344,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "330R"
 			(at 45.466 56.896 0)
 			(effects
 				(font
@@ -5438,143 +5389,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:R")
-		(at 36.83 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1cf2bcd-feff-4363-bd08-b94b22e8ede2")
-		(property "Reference" "R22"
-			(at 37.846 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 37.846 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26e4ec49-c2c3-4e57-9d3b-9249cd44c43a")
-		)
-		(pin "2"
-			(uuid "59d94471-3555-4772-b040-2e4c874ceb1d")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:GND")
-		(at 44.45 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd462bf4-e327-477a-b4e4-271051157986")
-		(property "Reference" "#PWR022"
-			(at 44.45 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99977a41-3e2d-469f-a32a-36961f3bf958")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR022")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5589,7 +5404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5b1dc3b-9c63-4ac3-b862-8ce409c20c6a")
-		(property "Reference" "LED1"
+		(property "Reference" "LED3"
 			(at 47.498 60.96 90)
 			(effects
 				(font
@@ -5646,179 +5461,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:DIODESINC-MMBT4401-7-F-SOT-23-3")
-		(at 120.65 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e022e92a-9756-42d6-adb1-bc325d6fc0fc")
-		(property "Reference" "Q7"
-			(at 122.682 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DIODESINC-MMBT4401-7-F-SOT-23-3"
-			(at 134.366 132.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 134.366 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/115/DIODS20594_1-2541823.pdf"
-			(at 134.366 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc - MMBT4401 - NPN BJT, 40V, 310mW, 600mA, SOT-23-3"
-			(at 134.366 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16139819-14c2-4497-961a-fd5124ef5df9")
-		)
-		(pin "2"
-			(uuid "2f01624f-4d6e-4e91-9d2d-1400c064f100")
-		)
-		(pin "3"
-			(uuid "39cc8c81-be44-4cd3-932b-555239396a7d")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:R")
-		(at 74.93 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e216eba9-fddc-4315-b81e-0871f679c022")
-		(property "Reference" "R25"
-			(at 75.946 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 75.946 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 74.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 74.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2af742a-d3e0-4b02-a2b1-15ec9d9cf405")
-		)
-		(pin "2"
-			(uuid "3d64ec87-f3bc-4464-8a56-c8f141478320")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R25")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -5834,7 +5477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27196e0-cb76-44d5-85b7-2712013794bf")
-		(property "Reference" "LED7"
+		(property "Reference" "LED2"
 			(at 38.1 31.7498 90)
 			(effects
 				(font
@@ -5891,41 +5534,42 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "LED7")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DJ:R")
-		(at 113.03 128.27 180)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 212.09 54.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e79a27b9-537c-4e61-81cc-97c0514e666e")
-		(property "Reference" "R28"
-			(at 114.046 127.254 0)
+		(uuid "e2783998-79fe-4aee-9868-cdb64850c153")
+		(property "Reference" "J149"
+			(at 216.154 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10K"
-			(at 114.046 129.286 0)
+		(property "Value" "Conn_01x01"
+			(at 214.63 53.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 113.03 128.27 0)
+		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
+			(at 212.09 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +5578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 128.27 0)
+			(at 212.09 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,8 +5586,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 113.03 128.27 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 212.09 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,15 +5596,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "34ca9c36-6707-4157-8ec7-49312d9607a9")
-		)
-		(pin "2"
-			(uuid "326f6c6f-b987-4aa9-9d7b-1e14521fb9b1")
+			(uuid "6eace6b0-fe62-4de3-b298-20b2c0730449")
 		)
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R28")
+					(reference "J149")
 					(unit 1)
 				)
 			)
@@ -6070,243 +5711,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DJ:+3V3")
-		(at 44.45 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f326c848-f5b6-48d3-9863-a1ab8b4714fd")
-		(property "Reference" "#PWR020"
-			(at 44.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 44.45 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power - Power symbol creates a global label with name \"+3V3\""
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61e3fd61-9977-45c4-ae66-ab5e74267f1e")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:DIODESINC-MMBT4401-7-F-SOT-23-3")
-		(at 82.55 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8a7e961-2c01-48c3-9461-386bf2201df7")
-		(property "Reference" "Q6"
-			(at 84.582 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DIODESINC-MMBT4401-7-F-SOT-23-3"
-			(at 96.266 132.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 96.266 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/115/DIODS20594_1-2541823.pdf"
-			(at 96.266 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diodes Inc - MMBT4401 - NPN BJT, 40V, 310mW, 600mA, SOT-23-3"
-			(at 96.266 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 82.55 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VBIC"
-			(at 82.55 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 82.55 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "291dea29-1bf2-400a-b14e-af7de1ad8a03")
-		)
-		(pin "2"
-			(uuid "ad23fecd-c2bb-40f9-915c-844abba91a04")
-		)
-		(pin "3"
-			(uuid "c5e78943-876a-41d5-ba3a-a6173ec3c98f")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DJ:R")
-		(at 69.85 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8dc293d-235b-446b-89ae-2295180de2ea")
-		(property "Reference" "R24"
-			(at 69.85 121.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47K"
-			(at 69.85 125.222 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "djStandard:R_0402_1005Metric"
-			(at 69.85 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic - Resistor - 2-Pin"
-			(at 69.85 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73817243-ee60-4013-8ee3-1afcf12ecfac")
-		)
-		(pin "2"
-			(uuid "2e07af60-952f-4943-b516-3f1374ad63c9")
-		)
-		(instances
-			(project "hermetica-stm32h755-prototyping"
-				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DJ:GND")
 		(at 120.65 80.01 0)
 		(unit 1)
@@ -6316,7 +5720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9b1736c-170d-4897-bcae-0064ad6f4ad1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR035"
 			(at 120.65 86.36 0)
 			(effects
 				(font
@@ -6367,7 +5771,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "#PWR013")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6375,15 +5779,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 138.43 68.58 180)
+		(at 135.89 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f9eec40e-0c32-4aa0-9e61-ffe5b7497942")
-		(property "Reference" "J29"
-			(at 134.366 68.58 0)
+		(property "Reference" "J142"
+			(at 131.826 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +5795,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 135.89 67.3101 0)
+			(at 133.35 67.3101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +5805,7 @@
 			)
 		)
 		(property "Footprint" "djStandard:CONNECTOR-PCB-HANDSOLDER-01X01-FEMALE"
-			(at 138.43 68.58 0)
+			(at 135.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +5814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 68.58 0)
+			(at 135.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +5823,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 68.58 0)
+			(at 135.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,7 +5837,7 @@
 		(instances
 			(project "hermetica-stm32h755-prototyping"
 				(path "/2eb6ac18-769b-44f0-a6f6-cb743638cdeb/e3b22263-6671-4402-8dde-959d3caadf34"
-					(reference "J29")
+					(reference "J142")
 					(unit 1)
 				)
 			)
